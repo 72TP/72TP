@@ -21,6 +21,42 @@ async function main() {
     const storage = new InMemoryStorage();
     console.log('✅ In-memory storage initialized');
 
+    require('dotenv').config();
+const { Client, GatewayIntentBits } = require('discord.js');
+const fs = require('fs');
+const path = require('path');
+
+const memoryDir = './memory';
+if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
+
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
+});
+
+client.on('messageCreate', async msg => {
+  if (msg.author.bot) return;
+
+  const userFile = path.join(memoryDir, `${msg.author.id}.json`);
+  let userMemory = [];
+  if (fs.existsSync(userFile)) {
+    userMemory = JSON.parse(fs.readFileSync(userFile));
+  }
+
+  // إضافة الرسالة الجديدة
+  userMemory.push(msg.content);
+
+  // حفظ الملف بدون حد للرسائل
+  fs.writeFileSync(userFile, JSON.stringify(userMemory, null, 2));
+
+  // مثال أمر: عرض آخر رسالة تذكرها
+  if (msg.content === '!اخر') {
+    const last = userMemory.slice(-2, -1)[0];
+    msg.reply(last ? `آخر شيء قلته كان: "${last}"` : 'لا أتذكر أي شيء بعد.');
+  }
+});
+
+client.login(process.env.DISCORD_BOT_TOKEN);
+    
     // Initialize Discord bot
     console.log('🤖 Initializing Discord bot...');
     const bot = new DiscordBot(storage);
