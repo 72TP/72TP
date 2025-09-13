@@ -7,13 +7,13 @@ const memoryDir = './memory';
 if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
 
 // التحقق من المتغيرات البيئية
-if (!process.env.DISCORD_TOKEN) {
-  console.error('❌ DISCORD_TOKEN is required');
+if (!process.env.DISCORD_BOT_TOKEN) {
+  console.error('❌ DISCORD_BOT_TOKEN is required');
   process.exit(1);
 }
 
-if (!process.env.GEMINI_KEY) {
-  console.error('❌ GEMINI_KEY is required');
+if (!process.env.GEMINI_API_KEY) {
+  console.error('❌ GEMINI_API_KEY is required');
   process.exit(1);
 }
 
@@ -43,7 +43,7 @@ client.on('messageCreate', async msg => {
   }
 });
 
-client.login(process.env.DISCORD_TOKEN)
+client.login(process.env.DISCORD_BOT_TOKEN)
   .then(() => console.log('✅ 72TP Discord Bot is online and ready!'))
   .catch(err => {
     console.error('❌ Failed to login:', err);
