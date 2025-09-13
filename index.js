@@ -1,52 +1,39 @@
 require('dotenv').config();
-const { Client, GatewayIntentBits } = require('discord.js');
-const fs = require('fs');
-const path = require('path');
+const { DiscordBot } = require('./discord-bot.js');
+const { InMemoryStorage } = require('./storage.js');
 
-const memoryDir = './memory';
-if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
-
-const token = process.env.DISCORD_TOKEN;
-const gemini = process.env.GEMINI_KEY;
-
-if (!token) {
+// تحقق من وجود Secrets
+if (!process.env.DISCORD_TOKEN) {
   console.error('❌ DISCORD_TOKEN is required');
   process.exit(1);
 }
 
-if (!gemini) {
+if (!process.env.GEMINI_KEY) {
   console.error('❌ GEMINI_KEY is required');
   process.exit(1);
 }
 
-const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
-});
+// أنشئ التخزين
+const storage = new InMemoryStorage();
 
-client.on('messageCreate', async msg => {
-  if (msg.author.bot) return;
+// أنشئ البوت
+const bot = new DiscordBot(storage);
 
-  const userFile = path.join(memoryDir, `${msg.author.id}.json`);
-  let userMemory = [];
-  if (fs.existsSync(userFile)) {
-    userMemory = JSON.parse(fs.readFileSync(userFile));
-  }
-
-  userMemory.push(msg.content);
-  fs.writeFileSync(userFile, JSON.stringify(userMemory, null, 2));
-
-  if (msg.content === '!اخر') {
-    const last = userMemory.slice(-2, -1)[0];
-    msg.reply(last ? `آخر شيء قلته كان: "${last}"` : 'لا أتذكر أي شيء بعد.');
-  }
-});
-
-client.login(token)
+// تسجيل الدخول باستخدام التوكن
+bot.login(process.env.DISCORD_TOKEN)
   .then(() => console.log('✅ 72TP Discord Bot is online and ready!'))
   .catch(err => {
     console.error('❌ Failed to login:', err);
     process.exit(1);
   });
 
-process.on('SIGINT', () => { console.log('👋 Shutting down...'); process.exit(0); });
-process.on('SIGTERM', () => { console.log('👋 Shutting down...'); process.exit(0); });
+// التعامل مع إغلاق البوت بشكل نظيف
+process.on('SIGINT', () => {
+  console.log('👋 Shutting down 72TP Discord Bot...');
+  process.exit(0);
+});
+
+process.on('SIGTERM', () => {
+  console.log('👋 Shutting down 72TP Discord Bot...');
+  process.exit(0);
+});
