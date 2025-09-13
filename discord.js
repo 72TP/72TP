@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder, ButtonBuilder, ActionRowBuilder, ButtonStyle } = require('discord.js');
 const { analyzePersonality } = require('./gemini.js');
-const questionsData = require('./data/questions.json');
-const translations = require('./data/translations.json');
+const questionsData = require('./questions.json');
+const translations = require('./translations.json');
 
 class DiscordBot {
   constructor(storage) {
