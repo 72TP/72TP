@@ -6,16 +6,16 @@ const path = require('path');
 const memoryDir = './memory';
 if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
 
-const token = process.env.DISCORD_BOT_TOKEN;
-const gemini = process.env.GEMINI_API_KEY;
+const token = process.env.DISCORD_TOKEN;
+const gemini = process.env.GEMINI_KEY;
 
 if (!token) {
-  console.error('❌ DISCORD_BOT_TOKEN is required');
+  console.error('❌ DISCORD_TOKEN is required');
   process.exit(1);
 }
 
 if (!gemini) {
-  console.error('❌ GEMINI_API_KEY is required');
+  console.error('❌ GEMINI_KEY is required');
   process.exit(1);
 }
 
