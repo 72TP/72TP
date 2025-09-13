@@ -1,57 +1,52 @@
 require('dotenv').config();
-const { DiscordBot } = require('./discord-bot.js'); // كود الأوامر
+const { Client, GatewayIntentBits } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 
-// تحقق من وجود التوكن والمفتاح
-if (!process.env.DISCORD_TOKEN) {
-  console.error('❌ DISCORD_TOKEN is required');
-  process.exit(1);
-}
-
-if (!process.env.GEMINI_KEY) {
-  console.error('❌ GEMINI_KEY is required');
-  process.exit(1);
-}
-
-// إعداد مجلد لحفظ الرسائل لكل مستخدم
 const memoryDir = './memory';
 if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
 
-class FileStorage {
-  constructor() { this.memoryDir = memoryDir; }
+const token = process.env.DISCORD_BOT_TOKEN;
+const gemini = process.env.GEMINI_API_KEY;
 
-  getUserFile(userId) { return path.join(this.memoryDir, `${userId}.json`); }
-
-  getUserMemory(userId) {
-    return fs.existsSync(this.getUserFile(userId)) ? JSON.parse(fs.readFileSync(this.getUserFile(userId))) : [];
-  }
-
-  saveUserMessage(userId, message) {
-    const mem = this.getUserMemory(userId);
-    mem.push(message);
-    fs.writeFileSync(this.getUserFile(userId), JSON.stringify(mem, null, 2));
-  }
-
-  resetUserMemory(userId) {
-    fs.writeFileSync(this.getUserFile(userId), JSON.stringify([]));
-  }
+if (!token) {
+  console.error('❌ DISCORD_BOT_TOKEN is required');
+  process.exit(1);
 }
 
-// إنشاء التخزين
-const storage = new FileStorage();
+if (!gemini) {
+  console.error('❌ GEMINI_API_KEY is required');
+  process.exit(1);
+}
 
-// إنشاء البوت وربطه بالتخزين
-const bot = new DiscordBot(storage);
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
+});
 
-// تسجيل الدخول
-bot.login(process.env.DISCORD_TOKEN)
+client.on('messageCreate', async msg => {
+  if (msg.author.bot) return;
+
+  const userFile = path.join(memoryDir, `${msg.author.id}.json`);
+  let userMemory = [];
+  if (fs.existsSync(userFile)) {
+    userMemory = JSON.parse(fs.readFileSync(userFile));
+  }
+
+  userMemory.push(msg.content);
+  fs.writeFileSync(userFile, JSON.stringify(userMemory, null, 2));
+
+  if (msg.content === '!اخر') {
+    const last = userMemory.slice(-2, -1)[0];
+    msg.reply(last ? `آخر شيء قلته كان: "${last}"` : 'لا أتذكر أي شيء بعد.');
+  }
+});
+
+client.login(token)
   .then(() => console.log('✅ 72TP Discord Bot is online and ready!'))
   .catch(err => {
     console.error('❌ Failed to login:', err);
     process.exit(1);
   });
 
-// إغلاق نظيف للبوت
-process.on('SIGINT', () => { console.log('👋 Shutting down 72TP Discord Bot...'); process.exit(0); });
-process.on('SIGTERM', () => { console.log('👋 Shutting down 72TP Discord Bot...'); process.exit(0); });
+process.on('SIGINT', () => { console.log('👋 Shutting down...'); process.exit(0); });
+process.on('SIGTERM', () => { console.log('👋 Shutting down...'); process.exit(0); });
