@@ -23,5 +23,5 @@ jobs:
       - name: Run bot
         run: node index.js
         env:
-          DISCORD_BOT_TOKEN: ${{ 72TP_keys.env }}
-          GEMINI_API_KEY: ${{ 72TP_keys.env }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD BOT KEYS }}
+          GEMINI_API_KEY: ${{ secrets.DISCORD BOT KEYS }}
