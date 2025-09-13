@@ -1,27 +1,27 @@
 name: Discord Bot
 
 on:
-  workflow_dispatch:   # لتشغيل يدوي من GitHub
+  workflow_dispatch:   # لتشغيل يدوي
   schedule:
     - cron: "0 */6 * * *"  # تشغيل كل 6 ساعات
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    env:  # هنا نمرر Secrets مباشرة
+      DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+      GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
       - name: Run bot
         run: node index.js
-        env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
