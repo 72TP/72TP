@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { DiscordBot } = require('./discord-bot.js');
+const { Client, GatewayIntentBits } = require('discord-bot.js');
 const fs = require('fs');
 const path = require('path');
 
