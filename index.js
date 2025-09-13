@@ -1,33 +1,21 @@
 require('dotenv').config();
-const { DiscordBot } = require('./discord-bot.js');
-const { InMemoryStorage } = require('./storage.js');
-
-async function main() {
-  try {
-    console.log('🚀 Starting 72TP Discord Bot...');
-    
-    // Check required environment variables
-    if (!process.env.DISCORD_BOT_TOKEN) {
-      console.error('❌ DISCORD_BOT_TOKEN is required');
-      process.exit(1);
-    }
-    
-    if (!process.env.GEMINI_API_KEY) {
-      console.error('❌ GEMINI_API_KEY is required');
-      process.exit(1);
-    }
-
-    // Initialize storage
-    const storage = new InMemoryStorage();
-    console.log('✅ In-memory storage initialized');
-
-    require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 
 const memoryDir = './memory';
 if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
+
+// التحقق من المتغيرات البيئية
+if (!process.env.DISCORD_TOKEN) {
+  console.error('❌ DISCORD_TOKEN is required');
+  process.exit(1);
+}
+
+if (!process.env.GEMINI_KEY) {
+  console.error('❌ GEMINI_KEY is required');
+  process.exit(1);
+}
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
@@ -45,7 +33,7 @@ client.on('messageCreate', async msg => {
   // إضافة الرسالة الجديدة
   userMemory.push(msg.content);
 
-  // حفظ الملف بدون حد للرسائل
+  // حفظ الملف
   fs.writeFileSync(userFile, JSON.stringify(userMemory, null, 2));
 
   // مثال أمر: عرض آخر رسالة تذكرها
@@ -55,39 +43,19 @@ client.on('messageCreate', async msg => {
   }
 });
 
-client.login(process.env.DISCORD_BOT_TOKEN);
-    
-    // Initialize Discord bot
-    console.log('🤖 Initializing Discord bot...');
-    const bot = new DiscordBot(storage);
-    
-    console.log('🔑 Attempting to login with Discord...');
-    await bot.login(process.env.DISCORD_BOT_TOKEN);
-    
-    console.log('✅ 72TP Discord Bot is online and ready!');
-    console.log('📊 Features available:');
-    console.log('  • 360 questions across 72 personality traits');
-    console.log('  • Bilingual support (Arabic/English)');
-    console.log('  • AI-powered personality analysis');
-    console.log('  • Automatic question progression');
-    console.log('  • Complete test management');
-
-  } catch (error) {
-    console.error('❌ Error starting bot:', error);
+client.login(process.env.DISCORD_TOKEN)
+  .then(() => console.log('✅ 72TP Discord Bot is online and ready!'))
+  .catch(err => {
+    console.error('❌ Failed to login:', err);
     process.exit(1);
-  }
-}
+  });
 
-// Handle graceful shutdown
+// التعامل مع الإغلاق بطريقة نظيفة
 process.on('SIGINT', () => {
-  console.log('\n👋 Shutting down 72TP Discord Bot...');
+  console.log('👋 Shutting down 72TP Discord Bot...');
   process.exit(0);
 });
-
 process.on('SIGTERM', () => {
-  console.log('\n👋 Shutting down 72TP Discord Bot...');
+  console.log('👋 Shutting down 72TP Discord Bot...');
   process.exit(0);
 });
-
-// Start the bot
-main();
