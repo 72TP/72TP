@@ -1,6 +1,7 @@
 require('dotenv').config();
-const { DiscordBot } = require('./discord-bot.js'); // ملف الأوامر
-const { InMemoryStorage } = require('./storage.js'); // أو FileStorage إذا كنت تريد حفظ الرسائل في ملفات
+const { DiscordBot } = require('./discord-bot.js'); // كود الأوامر
+const fs = require('fs');
+const path = require('path');
 
 // تحقق من وجود التوكن والمفتاح
 if (!process.env.DISCORD_TOKEN) {
@@ -13,8 +14,32 @@ if (!process.env.GEMINI_KEY) {
   process.exit(1);
 }
 
+// إعداد مجلد لحفظ الرسائل لكل مستخدم
+const memoryDir = './memory';
+if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
+
+class FileStorage {
+  constructor() { this.memoryDir = memoryDir; }
+
+  getUserFile(userId) { return path.join(this.memoryDir, `${userId}.json`); }
+
+  getUserMemory(userId) {
+    return fs.existsSync(this.getUserFile(userId)) ? JSON.parse(fs.readFileSync(this.getUserFile(userId))) : [];
+  }
+
+  saveUserMessage(userId, message) {
+    const mem = this.getUserMemory(userId);
+    mem.push(message);
+    fs.writeFileSync(this.getUserFile(userId), JSON.stringify(mem, null, 2));
+  }
+
+  resetUserMemory(userId) {
+    fs.writeFileSync(this.getUserFile(userId), JSON.stringify([]));
+  }
+}
+
 // إنشاء التخزين
-const storage = new InMemoryStorage(); // أو FileStorage لحفظ الرسائل لكل مستخدم
+const storage = new FileStorage();
 
 // إنشاء البوت وربطه بالتخزين
 const bot = new DiscordBot(storage);
@@ -27,13 +52,6 @@ bot.login(process.env.DISCORD_TOKEN)
     process.exit(1);
   });
 
-// إغلاق نظيف
-process.on('SIGINT', () => {
-  console.log('👋 Shutting down 72TP Discord Bot...');
-  process.exit(0);
-});
-
-process.on('SIGTERM', () => {
-  console.log('👋 Shutting down 72TP Discord Bot...');
-  process.exit(0);
-});
+// إغلاق نظيف للبوت
+process.on('SIGINT', () => { console.log('👋 Shutting down 72TP Discord Bot...'); process.exit(0); });
+process.on('SIGTERM', () => { console.log('👋 Shutting down 72TP Discord Bot...'); process.exit(0); });
