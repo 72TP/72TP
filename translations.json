@@ -1,0 +1,102 @@
+{
+  "commands": {
+    "start": {
+      "ar": "بدء",
+      "en": "start"
+    },
+    "help": {
+      "ar": "مساعدة",
+      "en": "help"
+    },
+    "reset": {
+      "ar": "إعادة تعيين",
+      "en": "reset"
+    },
+    "continue": {
+      "ar": "متابعة",
+      "en": "continue"
+    },
+    "language": {
+      "ar": "لغة",
+      "en": "language"
+    },
+    "status": {
+      "ar": "حالة",
+      "en": "status"
+    }
+  },
+  "responses": {
+    "welcome": {
+      "ar": "مرحباً بك في اختبار 72TP للشخصية! 🧠\nهذا الاختبار الشامل يقيم 72 سمة شخصية مختلفة عبر 9 فئات.\n\nاكتب `!start` لبدء رحلة تقييم شخصيتك!",
+      "en": "Welcome to the 72TP Personality Test! 🧠\nThis comprehensive assessment evaluates 72 different personality traits across 9 categories.\n\nType `!start` to begin your personality assessment journey!"
+    },
+    "test_started": {
+      "ar": "🚀 تم بدء الاختبار! اختبار 72TP للشخصية",
+      "en": "🚀 Test Started! 72TP Personality Assessment"
+    },
+    "question_format": {
+      "ar": "السؤال {current} من {total}",
+      "en": "Question {current} of {total}"
+    },
+    "answer_recorded": {
+      "ar": "✅ تم تسجيل إجابتك!",
+      "en": "✅ Answer recorded!"
+    },
+    "test_completed": {
+      "ar": "🎉 تهانينا! لقد أكملت جميع الأسئلة الـ 360. تحليل شخصيتك جاهز!",
+      "en": "🎉 Congratulations! You have completed all 360 questions. Your personality analysis is ready!"
+    },
+    "analysis_types": {
+      "surface": {
+        "ar": "تحليل سطحي",
+        "en": "Surface Analysis"
+      },
+      "moderate": {
+        "ar": "تحليل متوسط",
+        "en": "Moderate Analysis"
+      },
+      "comprehensive": {
+        "ar": "تحليل شامل",
+        "en": "Comprehensive Analysis"
+      }
+    },
+    "answer_options": {
+      "strongly_disagree": {
+        "ar": "غير موافق جداً",
+        "en": "Strongly Disagree"
+      },
+      "disagree": {
+        "ar": "غير موافق",
+        "en": "Disagree"
+      },
+      "neutral": {
+        "ar": "محايد",
+        "en": "Neutral"
+      },
+      "agree": {
+        "ar": "موافق",
+        "en": "Agree"
+      },
+      "strongly_agree": {
+        "ar": "موافق جداً",
+        "en": "Strongly Agree"
+      }
+    },
+    "progress": {
+      "ar": "التقدم: {current}/{total} ({percentage}%)",
+      "en": "Progress: {current}/{total} ({percentage}%)"
+    },
+    "language_changed": {
+      "ar": "تم تغيير اللغة إلى العربية 🇸🇦",
+      "en": "Language changed to English 🇺🇸"
+    },
+    "invalid_command": {
+      "ar": "أمر غير صحيح. اكتب `!help` للمساعدة.",
+      "en": "Invalid command. Type `!help` for assistance."
+    },
+    "help_message": {
+      "ar": "📋 **دليل مساعدة بوت 72TP**\n\n**🚀 البدء:**\n`!start` - بدء اختبار الشخصية\n`!language` - تغيير اللغة\n`!help` - عرض هذا الدليل\n\n**📝 الإجابة على الأسئلة:**\n`!{رقم السؤال}.{الإجابة}` مثال: `!1.3`\n- .0 = غير موافق جداً\n- .1 = غير موافق\n- .2 = محايد\n- .3 = موافق\n- .4 = موافق جداً\n\n**⚙️ إدارة الاختبار:**\n`!continue` - متابعة من حيث توقفت\n`!reset` - إعادة البدء\n`!status` - فحص التقدم",
+      "en": "📋 **72TP Bot Help Guide**\n\n**🚀 Getting Started:**\n`!start` - Begin personality test\n`!language` - Switch language\n`!help` - Show this guide\n\n**📝 Answering Questions:**\n`!{question_number}.{answer}` example: `!1.3`\n- .0 = Strongly Disagree\n- .1 = Disagree\n- .2 = Neutral\n- .3 = Agree\n- .4 = Strongly Agree\n\n**⚙️ Test Management:**\n`!continue` - Resume from where you left off\n`!reset` - Start over\n`!status` - Check progress"
+    }
+  }
+}

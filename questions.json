@@ -1,0 +1,3253 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": {
+        "ar": "البنية العاطفية",
+        "en": "Emotional Structure"
+      },
+      "traits": [
+        {
+          "id": 1,
+          "name": {
+            "ar": "الحساسية العاطفية",
+            "en": "Emotional Sensitivity"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "text": {
+                "ar": "غالباً ما أشعر بتأثر عاطفي شديد عند سماع أخبار محزنة أو سعيدة",
+                "en": "I often feel deeply emotionally affected when hearing sad or happy news"
+              }
+            },
+            {
+              "id": 2,
+              "text": {
+                "ar": "يمكن للأحداث الصغيرة أن تغير مزاجي بشكل كبير",
+                "en": "Small events can significantly change my mood"
+              }
+            },
+            {
+              "id": 3,
+              "text": {
+                "ar": "أالحظ بسهولة مشاعر الآخرين وأتفاعل معها",
+                "en": "I easily notice others' emotions and react to them"
+              }
+            },
+            {
+              "id": 4,
+              "text": {
+                "ar": "أجد صعوبة في إخفاء مشاعري عند المواقف المؤثرة",
+                "en": "I find it difficult to hide my emotions in touching situations"
+              }
+            },
+            {
+              "id": 5,
+              "text": {
+                "ar": "أشعر بالحزن أو الفرح بعمق أكبر من معظم الأشخاص من حولي",
+                "en": "I feel sadness or joy more deeply than most people around me"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": {
+            "ar": "التحكم الانفعالي",
+            "en": "Emotional Control"
+          },
+          "questions": [
+            {
+              "id": 6,
+              "text": {
+                "ar": "أستطيع تهدئة نفسي بسرعة عند الغضب أو التوتر",
+                "en": "I can quickly calm myself when angry or stressed"
+              }
+            },
+            {
+              "id": 7,
+              "text": {
+                "ar": "لا أسمح للعواطف بالتحكم في قراراتي اليومية",
+                "en": "I don't let emotions control my daily decisions"
+              }
+            },
+            {
+              "id": 8,
+              "text": {
+                "ar": "أستطيع التعامل مع المواقف الصعبة دون فقدان السيطرة",
+                "en": "I can handle difficult situations without losing control"
+              }
+            },
+            {
+              "id": 9,
+              "text": {
+                "ar": "أحتفظ بهدوئي حتى في الظروف المجهدة",
+                "en": "I maintain my composure even in stressful circumstances"
+              }
+            },
+            {
+              "id": 10,
+              "text": {
+                "ar": "عندما أغضب، أبحث عن حلول بدلاً من الانفعال الفوري",
+                "en": "When I get angry, I look for solutions instead of immediate reaction"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": {
+            "ar": "التعبير العاطفي",
+            "en": "Emotional Expression"
+          },
+          "questions": [
+            {
+              "id": 11,
+              "text": {
+                "ar": "أُظهر مشاعري بوضوح في وجهي وكلامي",
+                "en": "I clearly show my emotions on my face and in my speech"
+              }
+            },
+            {
+              "id": 12,
+              "text": {
+                "ar": "أشارك مشاعري مع الآخرين بسهولة",
+                "en": "I easily share my emotions with others"
+              }
+            },
+            {
+              "id": 13,
+              "text": {
+                "ar": "أستطيع التعبير عن فرحي أو حزني بطريقة يفهمها الآخرون",
+                "en": "I can express my joy or sadness in a way others understand"
+              }
+            },
+            {
+              "id": 14,
+              "text": {
+                "ar": "أجد أن كتمان المشاعر يرهقني نفسياً",
+                "en": "I find that suppressing emotions exhausts me mentally"
+              }
+            },
+            {
+              "id": 15,
+              "text": {
+                "ar": "أستخدم لغة جسدي للتعبير عن مشاعري",
+                "en": "I use body language to express my emotions"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": {
+            "ar": "الاستقرار المزاجي",
+            "en": "Mood Stability"
+          },
+          "questions": [
+            {
+              "id": 16,
+              "text": {
+                "ar": "مزاجي ثابت في معظم الأوقات",
+                "en": "My mood is stable most of the time"
+              }
+            },
+            {
+              "id": 17,
+              "text": {
+                "ar": "لا أتعرض لتقلبات مزاجية مفاجئة باستمرار",
+                "en": "I don't experience sudden mood swings constantly"
+              }
+            },
+            {
+              "id": 18,
+              "text": {
+                "ar": "أتمكن من الحفاظ على نفسي متزناً عند الضغوط",
+                "en": "I can maintain my balance under pressure"
+              }
+            },
+            {
+              "id": 19,
+              "text": {
+                "ar": "لا تؤثر أحداث يومية صغيرة على مزاجي بشكل كبير",
+                "en": "Small daily events don't significantly affect my mood"
+              }
+            },
+            {
+              "id": 20,
+              "text": {
+                "ar": "يمكن للأشخاص الاعتماد على استقراري النفسي",
+                "en": "People can rely on my emotional stability"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": {
+            "ar": "التعاطف",
+            "en": "Empathy"
+          },
+          "questions": [
+            {
+              "id": 21,
+              "text": {
+                "ar": "أفهم بسهولة مشاعر الآخرين وتجاربهم",
+                "en": "I easily understand others' emotions and experiences"
+              }
+            },
+            {
+              "id": 22,
+              "text": {
+                "ar": "أتعاطف مع الأشخاص الذين يمرون بمشكلات",
+                "en": "I empathize with people going through problems"
+              }
+            },
+            {
+              "id": 23,
+              "text": {
+                "ar": "أضع نفسي مكان الآخرين لأفهم موقفهم",
+                "en": "I put myself in others' shoes to understand their position"
+              }
+            },
+            {
+              "id": 24,
+              "text": {
+                "ar": "أقدم الدعم العاطفي عند الحاجة",
+                "en": "I provide emotional support when needed"
+              }
+            },
+            {
+              "id": 25,
+              "text": {
+                "ar": "أشعر بالحزن إذا عانى أحدهم من مصيبة",
+                "en": "I feel sad when someone suffers a misfortune"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": {
+            "ar": "قابلية التهيج",
+            "en": "Irritability"
+          },
+          "questions": [
+            {
+              "id": 26,
+              "text": {
+                "ar": "أغضب أو أنزعج بسرعة عند مواجهة مواقف مزعجة",
+                "en": "I get angry or annoyed quickly when facing annoying situations"
+              }
+            },
+            {
+              "id": 27,
+              "text": {
+                "ar": "أجد صعوبة في التعامل مع الأشخاص المزعجين",
+                "en": "I find it difficult to deal with annoying people"
+              }
+            },
+            {
+              "id": 28,
+              "text": {
+                "ar": "أحياناً أكون حساساً جداً للمواقف الصغيرة",
+                "en": "Sometimes I'm very sensitive to small situations"
+              }
+            },
+            {
+              "id": 29,
+              "text": {
+                "ar": "الضغوط اليومية تجعلني متوتراً بسرعة",
+                "en": "Daily pressures make me tense quickly"
+              }
+            },
+            {
+              "id": 30,
+              "text": {
+                "ar": "أشعر بالانزعاج عند انتقاد الآخرين لي",
+                "en": "I feel annoyed when others criticize me"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": {
+            "ar": "الميل للانعزال عند الضيق",
+            "en": "Tendency to Isolate When Distressed"
+          },
+          "questions": [
+            {
+              "id": 31,
+              "text": {
+                "ar": "أفضل البقاء بمفردي عند مواجهة مشكلة",
+                "en": "I prefer to stay alone when facing a problem"
+              }
+            },
+            {
+              "id": 32,
+              "text": {
+                "ar": "أبتعد عن الآخرين عندما أكون مضغوطاً",
+                "en": "I distance myself from others when I'm stressed"
+              }
+            },
+            {
+              "id": 33,
+              "text": {
+                "ar": "أشعر بالراحة أكثر في العزلة عند الضيق النفسي",
+                "en": "I feel more comfortable in isolation during psychological distress"
+              }
+            },
+            {
+              "id": 34,
+              "text": {
+                "ar": "أواجه صعوبة في مشاركة مشاعري في أوقات الضيق",
+                "en": "I have difficulty sharing my emotions during times of distress"
+              }
+            },
+            {
+              "id": 35,
+              "text": {
+                "ar": "الانعزال يساعدني على التفكير في حل المشكلات",
+                "en": "Isolation helps me think about solving problems"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": {
+            "ar": "سرعة التعافي العاطفي",
+            "en": "Emotional Recovery Speed"
+          },
+          "questions": [
+            {
+              "id": 36,
+              "text": {
+                "ar": "أستعيد توازني بسرعة بعد تجربة صعبة",
+                "en": "I quickly regain my balance after a difficult experience"
+              }
+            },
+            {
+              "id": 37,
+              "text": {
+                "ar": "لا أظل حزيناً لفترات طويلة بعد موقف مؤلم",
+                "en": "I don't stay sad for long periods after a painful situation"
+              }
+            },
+            {
+              "id": 38,
+              "text": {
+                "ar": "أتعلم من التجارب العاطفية السلبية وأستمر في حياتي",
+                "en": "I learn from negative emotional experiences and continue with my life"
+              }
+            },
+            {
+              "id": 39,
+              "text": {
+                "ar": "يمكنني تجاوز الصدمات العاطفية بسرعة نسبية",
+                "en": "I can overcome emotional shocks relatively quickly"
+              }
+            },
+            {
+              "id": 40,
+              "text": {
+                "ar": "أستطيع العودة إلى مزاجي الطبيعي بعد الأحداث الصعبة",
+                "en": "I can return to my normal mood after difficult events"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": {
+        "ar": "الأسلوب المعرفي",
+        "en": "Cognitive Style"
+      },
+      "traits": [
+        {
+          "id": 9,
+          "name": {
+            "ar": "التفكير التحليلي",
+            "en": "Analytical Thinking"
+          },
+          "questions": [
+            {
+              "id": 41,
+              "text": {
+                "ar": "أحلل المشكلات بتقسيمها إلى أجزاء صغيرة",
+                "en": "I analyze problems by breaking them down into small parts"
+              }
+            },
+            {
+              "id": 42,
+              "text": {
+                "ar": "أدرس التفاصيل بدقة قبل اتخاذ القرارات",
+                "en": "I study details carefully before making decisions"
+              }
+            },
+            {
+              "id": 43,
+              "text": {
+                "ar": "أفضل التفكير المنطقي على الحدس في حل المشكلات",
+                "en": "I prefer logical thinking over intuition in problem-solving"
+              }
+            },
+            {
+              "id": 44,
+              "text": {
+                "ar": "أبحث عن الأدلة والحقائق قبل تكوين رأي",
+                "en": "I seek evidence and facts before forming an opinion"
+              }
+            },
+            {
+              "id": 45,
+              "text": {
+                "ar": "أستطيع تحليل الأسباب والنتائج بوضوح",
+                "en": "I can clearly analyze causes and effects"
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": {
+            "ar": "الحدس",
+            "en": "Intuition"
+          },
+          "questions": [
+            {
+              "id": 46,
+              "text": {
+                "ar": "أتخذ قرارات بناءً على الشعور الداخلي أحياناً",
+                "en": "I sometimes make decisions based on inner feelings"
+              }
+            },
+            {
+              "id": 47,
+              "text": {
+                "ar": "أفهم المواقف دون الحاجة لأدلة ظاهرة",
+                "en": "I understand situations without needing obvious evidence"
+              }
+            },
+            {
+              "id": 48,
+              "text": {
+                "ar": "أثق في إحساسي الأولي تجاه الأشخاص والمواقف",
+                "en": "I trust my first impressions about people and situations"
+              }
+            },
+            {
+              "id": 49,
+              "text": {
+                "ar": "أشعر بالأشياء قبل أن أفكر فيها منطقياً",
+                "en": "I feel things before thinking about them logically"
+              }
+            },
+            {
+              "id": 50,
+              "text": {
+                "ar": "حدسي يساعدني في اتخاذ قرارات صحيحة",
+                "en": "My intuition helps me make correct decisions"
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": {
+            "ar": "الانتباه للتفاصيل",
+            "en": "Attention to Detail"
+          },
+          "questions": [
+            {
+              "id": 51,
+              "text": {
+                "ar": "ألاحظ التفاصيل الصغيرة التي يغفل عنها الآخرون",
+                "en": "I notice small details that others overlook"
+              }
+            },
+            {
+              "id": 52,
+              "text": {
+                "ar": "أهتم بدقة العمل والتفاصيل الدقيقة",
+                "en": "I care about work accuracy and fine details"
+              }
+            },
+            {
+              "id": 53,
+              "text": {
+                "ar": "أراجع الأعمال للتأكد من صحة كل التفاصيل",
+                "en": "I review work to ensure all details are correct"
+              }
+            },
+            {
+              "id": 54,
+              "text": {
+                "ar": "أجد الأخطاء الصغيرة بسهولة",
+                "en": "I easily find small errors"
+              }
+            },
+            {
+              "id": 55,
+              "text": {
+                "ar": "أعطي أهمية للعناصر الدقيقة في أي موضوع",
+                "en": "I give importance to precise elements in any topic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": {
+            "ar": "التفكير المجرد",
+            "en": "Abstract Thinking"
+          },
+          "questions": [
+            {
+              "id": 56,
+              "text": {
+                "ar": "أستطيع التعامل مع الأفكار النظرية المعقدة",
+                "en": "I can handle complex theoretical ideas"
+              }
+            },
+            {
+              "id": 57,
+              "text": {
+                "ar": "أفهم المفاهيم المجردة بسهولة",
+                "en": "I easily understand abstract concepts"
+              }
+            },
+            {
+              "id": 58,
+              "text": {
+                "ar": "أحب التفكير في الأمور الفلسفية والنظرية",
+                "en": "I enjoy thinking about philosophical and theoretical matters"
+              }
+            },
+            {
+              "id": 59,
+              "text": {
+                "ar": "أستطيع ربط الأفكار المختلفة لتكوين مفهوم جديد",
+                "en": "I can connect different ideas to form new concepts"
+              }
+            },
+            {
+              "id": 60,
+              "text": {
+                "ar": "أعمل بشكل جيد مع المبادئ والقواعد العامة",
+                "en": "I work well with general principles and rules"
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": {
+            "ar": "الاستيعاب السريع",
+            "en": "Quick Comprehension"
+          },
+          "questions": [
+            {
+              "id": 61,
+              "text": {
+                "ar": "أفهم المعلومات الجديدة بسرعة",
+                "en": "I understand new information quickly"
+              }
+            },
+            {
+              "id": 62,
+              "text": {
+                "ar": "ألتقط الأفكار المعقدة دون تكرار كثير",
+                "en": "I grasp complex ideas without much repetition"
+              }
+            },
+            {
+              "id": 63,
+              "text": {
+                "ar": "أتعلم المهارات الجديدة بسرعة أكبر من الآخرين",
+                "en": "I learn new skills faster than others"
+              }
+            },
+            {
+              "id": 64,
+              "text": {
+                "ar": "أربط المعلومات الجديدة بما أعرفه سابقاً بسهولة",
+                "en": "I easily connect new information with what I already know"
+              }
+            },
+            {
+              "id": 65,
+              "text": {
+                "ar": "أحتاج وقت أقل من الآخرين لفهم الأمور المعقدة",
+                "en": "I need less time than others to understand complex matters"
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": {
+            "ar": "الميل للتفكير المتكرر",
+            "en": "Tendency to Ruminate"
+          },
+          "questions": [
+            {
+              "id": 66,
+              "text": {
+                "ar": "أعيد التفكير في الأخطاء أو المواقف المحرجة مراراً",
+                "en": "I repeatedly think about mistakes or embarrassing situations"
+              }
+            },
+            {
+              "id": 67,
+              "text": {
+                "ar": "أجد صعوبة في إيقاف التفكير في أمور مقلقة",
+                "en": "I find it difficult to stop thinking about worrying matters"
+              }
+            },
+            {
+              "id": 68,
+              "text": {
+                "ar": "أفكر في نفس الموضوع لساعات أحياناً",
+                "en": "I sometimes think about the same topic for hours"
+              }
+            },
+            {
+              "id": 69,
+              "text": {
+                "ar": "أحلل المواقف السابقة مراراً دون فائدة واضحة",
+                "en": "I repeatedly analyze past situations without clear benefit"
+              }
+            },
+            {
+              "id": 70,
+              "text": {
+                "ar": "أجد نفسي عالقاً في دوامة التفكير أحياناً",
+                "en": "I sometimes find myself stuck in a thinking loop"
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": {
+            "ar": "مرونة التفكير",
+            "en": "Cognitive Flexibility"
+          },
+          "questions": [
+            {
+              "id": 71,
+              "text": {
+                "ar": "أغير رأيي عند ظهور معطيات جديدة",
+                "en": "I change my opinion when new data appears"
+              }
+            },
+            {
+              "id": 72,
+              "text": {
+                "ar": "أنظر للأمور من زوايا مختلفة",
+                "en": "I look at things from different angles"
+              }
+            },
+            {
+              "id": 73,
+              "text": {
+                "ar": "أتكيف مع طرق التفكير الجديدة بسهولة",
+                "en": "I easily adapt to new ways of thinking"
+              }
+            },
+            {
+              "id": 74,
+              "text": {
+                "ar": "أستطيع تغيير أسلوب حل المشكلة عند الحاجة",
+                "en": "I can change my problem-solving approach when needed"
+              }
+            },
+            {
+              "id": 75,
+              "text": {
+                "ar": "لا أتمسك بفكرة واحدة إذا ثبت خطؤها",
+                "en": "I don't stick to one idea if it proves wrong"
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": {
+            "ar": "حب التعلم",
+            "en": "Love of Learning"
+          },
+          "questions": [
+            {
+              "id": 76,
+              "text": {
+                "ar": "أشعر بالحماس عند تعلم شيء جديد",
+                "en": "I feel excited when learning something new"
+              }
+            },
+            {
+              "id": 77,
+              "text": {
+                "ar": "أبحث عن المعرفة باستمرار",
+                "en": "I constantly seek knowledge"
+              }
+            },
+            {
+              "id": 78,
+              "text": {
+                "ar": "أستمتع بالقراءة والاطلاع",
+                "en": "I enjoy reading and exploring"
+              }
+            },
+            {
+              "id": 79,
+              "text": {
+                "ar": "أتطوع لتعلم مهارات جديدة",
+                "en": "I volunteer to learn new skills"
+              }
+            },
+            {
+              "id": 80,
+              "text": {
+                "ar": "المعرفة مصدر متعة بالنسبة لي",
+                "en": "Knowledge is a source of pleasure for me"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": {
+        "ar": "السمات السلوكية",
+        "en": "Behavioral Traits"
+      },
+      "traits": [
+        {
+          "id": 17,
+          "name": {
+            "ar": "المبادرة",
+            "en": "Initiative"
+          },
+          "questions": [
+            {
+              "id": 81,
+              "text": {
+                "ar": "أبدأ الأعمال والأفكار دون انتظار الآخرين",
+                "en": "I start actions and ideas without waiting for others"
+              }
+            },
+            {
+              "id": 82,
+              "text": {
+                "ar": "أتطوع لتحمل مسؤوليات جديدة",
+                "en": "I volunteer to take on new responsibilities"
+              }
+            },
+            {
+              "id": 83,
+              "text": {
+                "ar": "أقترح الحلول والأفكار في الاجتماعات",
+                "en": "I suggest solutions and ideas in meetings"
+              }
+            },
+            {
+              "id": 84,
+              "text": {
+                "ar": "أتصرف بناءً على رؤيتي دون انتظار التوجيهات",
+                "en": "I act on my vision without waiting for directions"
+              }
+            },
+            {
+              "id": 85,
+              "text": {
+                "ar": "أحب أن أكون أول من يجرب الأشياء الجديدة",
+                "en": "I like to be the first to try new things"
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": {
+            "ar": "الاجتهاد والعمل المتواصل",
+            "en": "Diligence and Continuous Work"
+          },
+          "questions": [
+            {
+              "id": 86,
+              "text": {
+                "ar": "أعمل لساعات طويلة دون تذمر",
+                "en": "I work for long hours without complaining"
+              }
+            },
+            {
+              "id": 87,
+              "text": {
+                "ar": "ألتزم بالجهد المستمر لتحقيق أهدافي",
+                "en": "I commit to continuous effort to achieve my goals"
+              }
+            },
+            {
+              "id": 88,
+              "text": {
+                "ar": "أواصل العمل حتى عند الشعور بالتعب",
+                "en": "I continue working even when feeling tired"
+              }
+            },
+            {
+              "id": 89,
+              "text": {
+                "ar": "أقوم بأكثر مما هو مطلوب مني",
+                "en": "I do more than what's required of me"
+              }
+            },
+            {
+              "id": 90,
+              "text": {
+                "ar": "أضع معايير عالية للعمل الذي أنجزه",
+                "en": "I set high standards for the work I accomplish"
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": {
+            "ar": "القدرة على الالتزام بالروتين",
+            "en": "Ability to Follow Routine"
+          },
+          "questions": [
+            {
+              "id": 91,
+              "text": {
+                "ar": "أشعر بالراحة في أداء أنشطة متكررة ومنظمة",
+                "en": "I feel comfortable performing repetitive and organized activities"
+              }
+            },
+            {
+              "id": 92,
+              "text": {
+                "ar": "ألتزم بجدول يومي ثابت",
+                "en": "I stick to a fixed daily schedule"
+              }
+            },
+            {
+              "id": 93,
+              "text": {
+                "ar": "أفضل النظام على العشوائية في العمل",
+                "en": "I prefer order over randomness in work"
+              }
+            },
+            {
+              "id": 94,
+              "text": {
+                "ar": "أنجز المهام الروتينية بكفاءة عالية",
+                "en": "I accomplish routine tasks with high efficiency"
+              }
+            },
+            {
+              "id": 95,
+              "text": {
+                "ar": "الروتين يساعدني على الإنتاجية",
+                "en": "Routine helps me with productivity"
+              }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": {
+            "ar": "قابلية التشتت",
+            "en": "Distractibility"
+          },
+          "questions": [
+            {
+              "id": 96,
+              "text": {
+                "ar": "أفقد التركيز بسهولة عند وجود مثيرات خارجية",
+                "en": "I easily lose focus when external stimuli are present"
+              }
+            },
+            {
+              "id": 97,
+              "text": {
+                "ar": "أجد صعوبة في التركيز في البيئات الصاخبة",
+                "en": "I find it difficult to concentrate in noisy environments"
+              }
+            },
+            {
+              "id": 98,
+              "text": {
+                "ar": "انتباهي ينتقل من مهمة لأخرى بسرعة",
+                "en": "My attention shifts quickly from one task to another"
+              }
+            },
+            {
+              "id": 99,
+              "text": {
+                "ar": "أحتاج بيئة هادئة للتركيز الجيد",
+                "en": "I need a quiet environment for good concentration"
+              }
+            },
+            {
+              "id": 100,
+              "text": {
+                "ar": "الأصوات أو الحركة تجعلني أفقد التركيز",
+                "en": "Sounds or movement make me lose concentration"
+              }
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": {
+            "ar": "المخاطرة المحسوبة",
+            "en": "Calculated Risk-Taking"
+          },
+          "questions": [
+            {
+              "id": 101,
+              "text": {
+                "ar": "أميل لتجريب المجهول مع دراسة النتائج المحتملة",
+                "en": "I tend to try the unknown while studying potential outcomes"
+              }
+            },
+            {
+              "id": 102,
+              "text": {
+                "ar": "أزن المخاطر والفوائد قبل اتخاذ قرار مهم",
+                "en": "I weigh risks and benefits before making important decisions"
+              }
+            },
+            {
+              "id": 103,
+              "text": {
+                "ar": "أستطيع اتخاذ قرارات جريئة عندما تكون مدروسة",
+                "en": "I can make bold decisions when they're well thought out"
+              }
+            },
+            {
+              "id": 104,
+              "text": {
+                "ar": "لا أخاف من المخاطرة إذا كانت النتائج تستحق",
+                "en": "I'm not afraid to take risks if the results are worthwhile"
+              }
+            },
+            {
+              "id": 105,
+              "text": {
+                "ar": "أحسب المخاطر بدقة قبل الإقدام على أي مغامرة",
+                "en": "I calculate risks accurately before embarking on any venture"
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": {
+            "ar": "القدرة على التنفيذ العملي",
+            "en": "Practical Implementation Ability"
+          },
+          "questions": [
+            {
+              "id": 106,
+              "text": {
+                "ar": "أحول الأفكار إلى خطوات عملية قابلة للتطبيق",
+                "en": "I turn ideas into practical, implementable steps"
+              }
+            },
+            {
+              "id": 107,
+              "text": {
+                "ar": "أركز على الجانب العملي أكثر من النظري",
+                "en": "I focus more on the practical than the theoretical aspect"
+              }
+            },
+            {
+              "id": 108,
+              "text": {
+                "ar": "أستطيع تطبيق الخطط على أرض الواقع",
+                "en": "I can implement plans in reality"
+              }
+            },
+            {
+              "id": 109,
+              "text": {
+                "ar": "أهتم بالنتائج الملموسة أكثر من الأفكار المجردة",
+                "en": "I care more about tangible results than abstract ideas"
+              }
+            },
+            {
+              "id": 110,
+              "text": {
+                "ar": "أجد حلولاً عملية للمشكلات اليومية",
+                "en": "I find practical solutions to daily problems"
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": {
+            "ar": "التمسك بالخطط",
+            "en": "Adherence to Plans"
+          },
+          "questions": [
+            {
+              "id": 111,
+              "text": {
+                "ar": "ألتزم بالمسار المحدد دون تغيير إلا عند الضرورة",
+                "en": "I stick to the set path without change except when necessary"
+              }
+            },
+            {
+              "id": 112,
+              "text": {
+                "ar": "أنفذ الخطط كما وضعتها في البداية",
+                "en": "I execute plans as I initially set them"
+              }
+            },
+            {
+              "id": 113,
+              "text": {
+                "ar": "أقاوم إغراءات تغيير الخطة دون مبرر قوي",
+                "en": "I resist temptations to change the plan without strong justification"
+              }
+            },
+            {
+              "id": 114,
+              "text": {
+                "ar": "الثبات على الخطة يساعدني في تحقيق أهدافي",
+                "en": "Sticking to the plan helps me achieve my goals"
+              }
+            },
+            {
+              "id": 115,
+              "text": {
+                "ar": "أكمل ما بدأته حتى النهاية",
+                "en": "I complete what I started until the end"
+              }
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": {
+            "ar": "الإبداع السلوكي",
+            "en": "Behavioral Creativity"
+          },
+          "questions": [
+            {
+              "id": 116,
+              "text": {
+                "ar": "أتصرف بطرق جديدة وغير مألوفة في المواقف اليومية",
+                "en": "I act in new and unusual ways in daily situations"
+              }
+            },
+            {
+              "id": 117,
+              "text": {
+                "ar": "أبتكر حلولاً مبدعة للمشكلات الاعتيادية",
+                "en": "I create innovative solutions to common problems"
+              }
+            },
+            {
+              "id": 118,
+              "text": {
+                "ar": "أجد طرقاً مختلفة لأداء المهام المتكررة",
+                "en": "I find different ways to perform repetitive tasks"
+              }
+            },
+            {
+              "id": 119,
+              "text": {
+                "ar": "أحب تجريب أساليب جديدة في العمل",
+                "en": "I like trying new approaches in work"
+              }
+            },
+            {
+              "id": 120,
+              "text": {
+                "ar": "أتميز بأسلوبي الخاص في التعامل مع الأمور",
+                "en": "I distinguish myself with my own style of handling matters"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": {
+        "ar": "السمات الاجتماعية",
+        "en": "Social Traits"
+      },
+      "traits": [
+        {
+          "id": 25,
+          "name": {
+            "ar": "الانفتاح الاجتماعي",
+            "en": "Social Openness"
+          },
+          "questions": [
+            {
+              "id": 121,
+              "text": {
+                "ar": "أشعر بالراحة في التفاعل مع أشخاص جدد",
+                "en": "I feel comfortable interacting with new people"
+              }
+            },
+            {
+              "id": 122,
+              "text": {
+                "ar": "أتكيف بسرعة مع بيئات اجتماعية غير مألوفة",
+                "en": "I quickly adapt to unfamiliar social environments"
+              }
+            },
+            {
+              "id": 123,
+              "text": {
+                "ar": "أستمتع بالتعرف على أشخاص من خلفيات مختلفة",
+                "en": "I enjoy meeting people from different backgrounds"
+              }
+            },
+            {
+              "id": 124,
+              "text": {
+                "ar": "أبادر بالحديث مع الغرباء في المناسبات الاجتماعية",
+                "en": "I initiate conversations with strangers at social events"
+              }
+            },
+            {
+              "id": 125,
+              "text": {
+                "ar": "أحب الأنشطة الاجتماعية والتجمعات",
+                "en": "I love social activities and gatherings"
+              }
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": {
+            "ar": "الدفء الاجتماعي",
+            "en": "Social Warmth"
+          },
+          "questions": [
+            {
+              "id": 126,
+              "text": {
+                "ar": "الآخرون يشعرون بالود واللطف في التعامل معي",
+                "en": "Others feel friendliness and kindness in dealing with me"
+              }
+            },
+            {
+              "id": 127,
+              "text": {
+                "ar": "أعبر عن المشاعر الإيجابية بصراحة",
+                "en": "I express positive emotions openly"
+              }
+            },
+            {
+              "id": 128,
+              "text": {
+                "ar": "أقدم الدعم العاطفي للأصدقاء عند الحاجة",
+                "en": "I provide emotional support to friends when needed"
+              }
+            },
+            {
+              "id": 129,
+              "text": {
+                "ar": "أظهر الاهتمام الحقيقي بأحوال الآخرين",
+                "en": "I show genuine interest in others' conditions"
+              }
+            },
+            {
+              "id": 130,
+              "text": {
+                "ar": "أخلق جو إيجابي في التجمعات الاجتماعية",
+                "en": "I create a positive atmosphere in social gatherings"
+              }
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": {
+            "ar": "الحذر الاجتماعي",
+            "en": "Social Caution"
+          },
+          "questions": [
+            {
+              "id": 131,
+              "text": {
+                "ar": "أتريث أو أنسحب عند التعامل مع الغرباء",
+                "en": "I hesitate or withdraw when dealing with strangers"
+              }
+            },
+            {
+              "id": 132,
+              "text": {
+                "ar": "أحتاج وقت للشعور بالراحة مع أشخاص جدد",
+                "en": "I need time to feel comfortable with new people"
+              }
+            },
+            {
+              "id": 133,
+              "text": {
+                "ar": "أفضل الاستماع أولاً قبل المشاركة في المحادثات",
+                "en": "I prefer listening first before participating in conversations"
+              }
+            },
+            {
+              "id": 134,
+              "text": {
+                "ar": "أتجنب المواقف الاجتماعية المعقدة أحياناً",
+                "en": "I sometimes avoid complex social situations"
+              }
+            },
+            {
+              "id": 135,
+              "text": {
+                "ar": "أدرس الأشخاص قبل أن أثق بهم",
+                "en": "I study people before trusting them"
+              }
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": {
+            "ar": "القيادة في المجموعات",
+            "en": "Group Leadership"
+          },
+          "questions": [
+            {
+              "id": 136,
+              "text": {
+                "ar": "أميل لتوجيه الآخرين وتحمل زمام القرار",
+                "en": "I tend to guide others and take charge of decisions"
+              }
+            },
+            {
+              "id": 137,
+              "text": {
+                "ar": "أتولى المسؤولية في المشاريع الجماعية",
+                "en": "I take responsibility in group projects"
+              }
+            },
+            {
+              "id": 138,
+              "text": {
+                "ar": "أنظم الأنشطة الاجتماعية والعملية",
+                "en": "I organize social and work activities"
+              }
+            },
+            {
+              "id": 139,
+              "text": {
+                "ar": "الآخرون يلجؤون لي لاتخاذ القرارات المهمة",
+                "en": "Others turn to me for making important decisions"
+              }
+            },
+            {
+              "id": 140,
+              "text": {
+                "ar": "أشعر بالراحة عند قيادة فريق العمل",
+                "en": "I feel comfortable leading a work team"
+              }
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": {
+            "ar": "الاستعداد للتعاون",
+            "en": "Cooperation Readiness"
+          },
+          "questions": [
+            {
+              "id": 141,
+              "text": {
+                "ar": "أميل لمشاركة الجهد لتحقيق أهداف مشتركة",
+                "en": "I tend to share effort to achieve common goals"
+              }
+            },
+            {
+              "id": 142,
+              "text": {
+                "ar": "أعمل بشكل جيد ضمن فريق",
+                "en": "I work well as part of a team"
+              }
+            },
+            {
+              "id": 143,
+              "text": {
+                "ar": "أساهم في نجاح المجموعة حتى لو لم أحصل على تقدير شخصي",
+                "en": "I contribute to group success even if I don't receive personal recognition"
+              }
+            },
+            {
+              "id": 144,
+              "text": {
+                "ar": "أقدم المساعدة للزملاء عند الحاجة",
+                "en": "I offer help to colleagues when needed"
+              }
+            },
+            {
+              "id": 145,
+              "text": {
+                "ar": "أتنازل أحياناً عن رأيي الشخصي لصالح المجموعة",
+                "en": "I sometimes compromise my personal opinion for the group's benefit"
+              }
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": {
+            "ar": "القدرة على إنشاء علاقات جديدة",
+            "en": "Ability to Form New Relationships"
+          },
+          "questions": [
+            {
+              "id": 146,
+              "text": {
+                "ar": "أكوّن صداقات جديدة بسهولة",
+                "en": "I easily form new friendships"
+              }
+            },
+            {
+              "id": 147,
+              "text": {
+                "ar": "أنشئ روابط اجتماعية قوية مع الآخرين",
+                "en": "I create strong social bonds with others"
+              }
+            },
+            {
+              "id": 148,
+              "text": {
+                "ar": "أجد نقاط مشتركة مع أشخاص مختلفين",
+                "en": "I find common ground with different people"
+              }
+            },
+            {
+              "id": 149,
+              "text": {
+                "ar": "أبني الثقة مع الآخرين بسرعة",
+                "en": "I build trust with others quickly"
+              }
+            },
+            {
+              "id": 150,
+              "text": {
+                "ar": "شبكة علاقاتي الاجتماعية واسعة ومتنوعة",
+                "en": "My social network is wide and diverse"
+              }
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": {
+            "ar": "القدرة على الاحتفاظ بالعلاقات",
+            "en": "Ability to Maintain Relationships"
+          },
+          "questions": [
+            {
+              "id": 151,
+              "text": {
+                "ar": "أحافظ على علاقاتي على المدى الطويل رغم الضغوط",
+                "en": "I maintain my relationships long-term despite pressures"
+              }
+            },
+            {
+              "id": 152,
+              "text": {
+                "ar": "أبذل جهد للحفاظ على الصداقات القديمة",
+                "en": "I make an effort to maintain old friendships"
+              }
+            },
+            {
+              "id": 153,
+              "text": {
+                "ar": "أتواصل مع الأصدقاء بانتظام",
+                "en": "I communicate with friends regularly"
+              }
+            },
+            {
+              "id": 154,
+              "text": {
+                "ar": "أسامح الآخرين عند حدوث سوء فهم",
+                "en": "I forgive others when misunderstandings occur"
+              }
+            },
+            {
+              "id": 155,
+              "text": {
+                "ar": "أستثمر الوقت والجهد في تقوية علاقاتي",
+                "en": "I invest time and effort in strengthening my relationships"
+              }
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": {
+            "ar": "مهارات الاستماع",
+            "en": "Listening Skills"
+          },
+          "questions": [
+            {
+              "id": 156,
+              "text": {
+                "ar": "أصغي بتركيز وفهم لما يقوله الآخرون",
+                "en": "I listen with focus and understanding to what others say"
+              }
+            },
+            {
+              "id": 157,
+              "text": {
+                "ar": "أعطي انتباهي الكامل عندما يتحدث شخص معي",
+                "en": "I give my full attention when someone speaks with me"
+              }
+            },
+            {
+              "id": 158,
+              "text": {
+                "ar": "أفهم المعنى وراء الكلمات والمشاعر غير المعلنة",
+                "en": "I understand the meaning behind words and unexpressed emotions"
+              }
+            },
+            {
+              "id": 159,
+              "text": {
+                "ar": "أطرح أسئلة توضيحية للتأكد من فهمي",
+                "en": "I ask clarifying questions to ensure my understanding"
+              }
+            },
+            {
+              "id": 160,
+              "text": {
+                "ar": "الآخرون يشعرون بأنني أفهمهم حقاً",
+                "en": "Others feel that I truly understand them"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": {
+        "ar": "القيم والأخلاق",
+        "en": "Values and Ethics"
+      },
+      "traits": [
+        {
+          "id": 33,
+          "name": {
+            "ar": "النزاهة",
+            "en": "Integrity"
+          },
+          "questions": [
+            {
+              "id": 161,
+              "text": {
+                "ar": "ألتزم بالصدق والوضوح في القول والفعل",
+                "en": "I commit to honesty and clarity in word and deed"
+              }
+            },
+            {
+              "id": 162,
+              "text": {
+                "ar": "أعامل الآخرين بصراحة حتى لو كان ذلك صعباً",
+                "en": "I treat others with honesty even when it's difficult"
+              }
+            },
+            {
+              "id": 163,
+              "text": {
+                "ar": "أتجنب الخداع أو التضليل في تعاملي",
+                "en": "I avoid deception or misleading in my dealings"
+              }
+            },
+            {
+              "id": 164,
+              "text": {
+                "ar": "أقول الحقيقة حتى لو لم تكن في صالحي",
+                "en": "I tell the truth even if it's not in my favor"
+              }
+            },
+            {
+              "id": 165,
+              "text": {
+                "ar": "أحترم الحقائق ولا أحرفها لتناسب مصلحتي",
+                "en": "I respect facts and don't distort them to suit my interests"
+              }
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": {
+            "ar": "المسؤولية",
+            "en": "Responsibility"
+          },
+          "questions": [
+            {
+              "id": 166,
+              "text": {
+                "ar": "أتحمل تبعات أفعالي وقراراتي",
+                "en": "I bear the consequences of my actions and decisions"
+              }
+            },
+            {
+              "id": 167,
+              "text": {
+                "ar": "أعترف بأخطائي ولا ألوم الآخرين",
+                "en": "I acknowledge my mistakes and don't blame others"
+              }
+            },
+            {
+              "id": 168,
+              "text": {
+                "ar": "أنجز المهام الموكلة إلي بإتقان",
+                "en": "I complete assigned tasks with excellence"
+              }
+            },
+            {
+              "id": 169,
+              "text": {
+                "ar": "أتحمل مسؤولية النتائج حتى لو لم أكن السبب الوحيد",
+                "en": "I take responsibility for results even if I'm not the sole cause"
+              }
+            },
+            {
+              "id": 170,
+              "text": {
+                "ar": "أفكر في آثار قراراتي على الآخرين قبل اتخاذها",
+                "en": "I think about the effects of my decisions on others before making them"
+              }
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": {
+            "ar": "التعاطف الأخلاقي",
+            "en": "Moral Empathy"
+          },
+          "questions": [
+            {
+              "id": 171,
+              "text": {
+                "ar": "أشعر بمعاناة الآخرين وأرغب في مساعدتهم",
+                "en": "I feel others' suffering and want to help them"
+              }
+            },
+            {
+              "id": 172,
+              "text": {
+                "ar": "أتدخل لحماية من لا يستطيع الدفاع عن نفسه",
+                "en": "I intervene to protect those who can't defend themselves"
+              }
+            },
+            {
+              "id": 173,
+              "text": {
+                "ar": "أقدم المساعدة للمحتاجين دون انتظار مقابل",
+                "en": "I help those in need without expecting anything in return"
+              }
+            },
+            {
+              "id": 174,
+              "text": {
+                "ar": "أرفض الظلم حتى لو لم يمسني شخصياً",
+                "en": "I reject injustice even if it doesn't affect me personally"
+              }
+            },
+            {
+              "id": 175,
+              "text": {
+                "ar": "أضع نفسي مكان الآخرين عند اتخاذ قرارات أخلاقية",
+                "en": "I put myself in others' shoes when making moral decisions"
+              }
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": {
+            "ar": "التسامح",
+            "en": "Tolerance"
+          },
+          "questions": [
+            {
+              "id": 176,
+              "text": {
+                "ar": "أميل لتجاوز أخطاء الآخرين",
+                "en": "I tend to overlook others' mistakes"
+              }
+            },
+            {
+              "id": 177,
+              "text": {
+                "ar": "أعطي الناس فرص أخرى بعد أن يخطئوا",
+                "en": "I give people second chances after they make mistakes"
+              }
+            },
+            {
+              "id": 178,
+              "text": {
+                "ar": "لا أحمل الضغينة أو الحقد تجاه الآخرين",
+                "en": "I don't hold grudges or resentment toward others"
+              }
+            },
+            {
+              "id": 179,
+              "text": {
+                "ar": "أفهم أن الجميع يرتكب أخطاء وأتسامح معهم",
+                "en": "I understand that everyone makes mistakes and I forgive them"
+              }
+            },
+            {
+              "id": 180,
+              "text": {
+                "ar": "أركز على الجوانب الإيجابية في الآخرين",
+                "en": "I focus on the positive aspects in others"
+              }
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": {
+            "ar": "الميل للعدالة",
+            "en": "Sense of Justice"
+          },
+          "questions": [
+            {
+              "id": 181,
+              "text": {
+                "ar": "أسعى لتحقيق المساواة والإنصاف",
+                "en": "I strive to achieve equality and fairness"
+              }
+            },
+            {
+              "id": 182,
+              "text": {
+                "ar": "أقرر الأمور بناءً على الحق والعدل وليس على المصالح الشخصية",
+                "en": "I decide matters based on right and justice, not personal interests"
+              }
+            },
+            {
+              "id": 183,
+              "text": {
+                "ar": "أتعامل مع الجميع بشكل عادل بغض النظر عن خلفياتهم",
+                "en": "I treat everyone fairly regardless of their backgrounds"
+              }
+            },
+            {
+              "id": 184,
+              "text": {
+                "ar": "أرفض التحيز أو التمييز في التعامل مع الآخرين",
+                "en": "I reject bias or discrimination in dealing with others"
+              }
+            },
+            {
+              "id": 185,
+              "text": {
+                "ar": "أبحث عن حلول عادلة عند حدوث نزاع",
+                "en": "I seek fair solutions when conflicts arise"
+              }
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": {
+            "ar": "الالتزام بالوعود",
+            "en": "Promise Keeping"
+          },
+          "questions": [
+            {
+              "id": 186,
+              "text": {
+                "ar": "أفي بكلمتي مهما كانت الظروف",
+                "en": "I keep my word regardless of circumstances"
+              }
+            },
+            {
+              "id": 187,
+              "text": {
+                "ar": "ألتزم بالعهود التي أتعهد بها للآخرين",
+                "en": "I honor the commitments I make to others"
+              }
+            },
+            {
+              "id": 188,
+              "text": {
+                "ar": "أعطي الأولوية للوفاء بالوعود على الإهمال",
+                "en": "I prioritize keeping promises over neglect"
+              }
+            },
+            {
+              "id": 189,
+              "text": {
+                "ar": "أعمل على تحقيق ما أعد به حتى لو كان صعباً",
+                "en": "I work to fulfill what I promise even if it's difficult"
+              }
+            },
+            {
+              "id": 190,
+              "text": {
+                "ar": "أعتبر الالتزام بالوعود جزءاً من شخصيتي",
+                "en": "I consider keeping promises a part of my personality"
+              }
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": {
+            "ar": "حس الذنب والضمير",
+            "en": "Guilt and Conscience"
+          },
+          "questions": [
+            {
+              "id": 191,
+              "text": {
+                "ar": "أشعر بالانزعاج إذا ارتكبت خطأ أخلاقياً",
+                "en": "I feel disturbed if I commit a moral error"
+              }
+            },
+            {
+              "id": 192,
+              "text": {
+                "ar": "أحاول تصحيح أفعالي عندما ألاحظ خطأ",
+                "en": "I try to correct my actions when I notice an error"
+              }
+            },
+            {
+              "id": 193,
+              "text": {
+                "ar": "أتجنب التصرفات التي تتعارض مع ضميري",
+                "en": "I avoid actions that conflict with my conscience"
+              }
+            },
+            {
+              "id": 194,
+              "text": {
+                "ar": "أراجع نفسي بعد المواقف التي يمكن أن أكون مخطئاً فيها",
+                "en": "I review myself after situations where I might be wrong"
+              }
+            },
+            {
+              "id": 195,
+              "text": {
+                "ar": "أحمل المسؤولية الداخلية لأفعالي دون انتظار العقاب الخارجي",
+                "en": "I take internal responsibility for my actions without waiting for external punishment"
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": {
+            "ar": "الاستقامة الشخصية",
+            "en": "Personal Integrity"
+          },
+          "questions": [
+            {
+              "id": 196,
+              "text": {
+                "ar": "أتمسك بمبادئي مهما كانت الظروف",
+                "en": "I stick to my principles regardless of circumstances"
+              }
+            },
+            {
+              "id": 197,
+              "text": {
+                "ar": "أتصرف وفق ما أعتقد أنه صحيح دائماً",
+                "en": "I always act according to what I believe is right"
+              }
+            },
+            {
+              "id": 198,
+              "text": {
+                "ar": "أرفض التنازل عن القيم الأساسية لأجل مصلحة شخصية",
+                "en": "I refuse to compromise core values for personal gain"
+              }
+            },
+            {
+              "id": 199,
+              "text": {
+                "ar": "أستند إلى ضميري في اتخاذ القرارات الصعبة",
+                "en": "I rely on my conscience in making difficult decisions"
+              }
+            },
+            {
+              "id": 200,
+              "text": {
+                "ar": "أتصرف بطريقة مستقيمة حتى في غياب المراقبة",
+                "en": "I act with integrity even when no one is watching"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": {
+        "ar": "التكيف والمرونة",
+        "en": "Adaptation and Flexibility"
+      },
+      "traits": [
+        {
+          "id": 41,
+          "name": {
+            "ar": "مقاومة الضغوط",
+            "en": "Stress Resistance"
+          },
+          "questions": [
+            {
+              "id": 201,
+              "text": {
+                "ar": "أتمكن من العمل بشكل فعال تحت ظروف ضاغطة",
+                "en": "I can work effectively under stressful conditions"
+              }
+            },
+            {
+              "id": 202,
+              "text": {
+                "ar": "لا تنهار نفسيتي بسهولة عند مواجهة المواقف الصعبة",
+                "en": "My morale doesn't easily collapse when facing difficult situations"
+              }
+            },
+            {
+              "id": 203,
+              "text": {
+                "ar": "أتحمل مسؤوليات إضافية دون شعور بالإرهاق النفسي",
+                "en": "I handle additional responsibilities without feeling psychological exhaustion"
+              }
+            },
+            {
+              "id": 204,
+              "text": {
+                "ar": "أتعامل مع التوتر اليومي بهدوء وفعالية",
+                "en": "I handle daily stress calmly and effectively"
+              }
+            },
+            {
+              "id": 205,
+              "text": {
+                "ar": "أستطيع اتخاذ قرارات سليمة رغم الضغوط",
+                "en": "I can make sound decisions despite pressures"
+              }
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": {
+            "ar": "التكيف مع التغيير",
+            "en": "Adaptation to Change"
+          },
+          "questions": [
+            {
+              "id": 206,
+              "text": {
+                "ar": "أستطيع التعود بسرعة على بيئات أو ظروف جديدة",
+                "en": "I can quickly get used to new environments or circumstances"
+              }
+            },
+            {
+              "id": 207,
+              "text": {
+                "ar": "أتعامل مع التغييرات دون توتر شديد",
+                "en": "I handle changes without severe stress"
+              }
+            },
+            {
+              "id": 208,
+              "text": {
+                "ar": "أبحث عن فرص في المواقف الجديدة بدل مقاومتها",
+                "en": "I look for opportunities in new situations instead of resisting them"
+              }
+            },
+            {
+              "id": 209,
+              "text": {
+                "ar": "أتعلم من التغيرات وأطور نفسي وفقها",
+                "en": "I learn from changes and develop myself accordingly"
+              }
+            },
+            {
+              "id": 210,
+              "text": {
+                "ar": "أرى التغيير كفرصة وليس كعائق",
+                "en": "I see change as an opportunity, not an obstacle"
+              }
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": {
+            "ar": "صبر التحمل",
+            "en": "Endurance Patience"
+          },
+          "questions": [
+            {
+              "id": 211,
+              "text": {
+                "ar": "أتمكن من الانتظار لتحقيق أهداف طويلة المدى",
+                "en": "I can wait to achieve long-term goals"
+              }
+            },
+            {
+              "id": 212,
+              "text": {
+                "ar": "أتحمل الصعوبات لفترات طويلة دون استسلام",
+                "en": "I endure difficulties for long periods without giving up"
+              }
+            },
+            {
+              "id": 213,
+              "text": {
+                "ar": "أواصل جهدي حتى عندما لا أرى النتائج مباشرة",
+                "en": "I continue my efforts even when I don't see immediate results"
+              }
+            },
+            {
+              "id": 214,
+              "text": {
+                "ar": "أتعامل مع المواقف الصعبة بصبر وثبات",
+                "en": "I handle difficult situations with patience and steadiness"
+              }
+            },
+            {
+              "id": 215,
+              "text": {
+                "ar": "أتمكن من التحكم في إحباطي عند التأخر في تحقيق الأهداف",
+                "en": "I can control my frustration when goals are delayed"
+              }
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": {
+            "ar": "سرعة التعافي من الفشل",
+            "en": "Quick Recovery from Failure"
+          },
+          "questions": [
+            {
+              "id": 216,
+              "text": {
+                "ar": "أستعيد توازني بسرعة بعد تجربة فاشلة",
+                "en": "I quickly regain my balance after a failed experience"
+              }
+            },
+            {
+              "id": 217,
+              "text": {
+                "ar": "أتعلم من الإخفاقات وأتجاوزها دون تأنيب مفرط للذات",
+                "en": "I learn from failures and overcome them without excessive self-blame"
+              }
+            },
+            {
+              "id": 218,
+              "text": {
+                "ar": "لا أستسلم للفشل وأواصل المحاولة",
+                "en": "I don't surrender to failure and continue trying"
+              }
+            },
+            {
+              "id": 219,
+              "text": {
+                "ar": "أستفيد من الأخطاء لتجنبها في المستقبل",
+                "en": "I benefit from mistakes to avoid them in the future"
+              }
+            },
+            {
+              "id": 220,
+              "text": {
+                "ar": "أعود إلى العمل بحماس بعد أي خيبة",
+                "en": "I return to work with enthusiasm after any disappointment"
+              }
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "name": {
+            "ar": "الإصرار",
+            "en": "Persistence"
+          },
+          "questions": [
+            {
+              "id": 221,
+              "text": {
+                "ar": "أتمسك بالهدف رغم العقبات والصعوبات",
+                "en": "I stick to the goal despite obstacles and difficulties"
+              }
+            },
+            {
+              "id": 222,
+              "text": {
+                "ar": "لا أستسلم بسهولة أمام الفشل",
+                "en": "I don't easily give up in the face of failure"
+              }
+            },
+            {
+              "id": 223,
+              "text": {
+                "ar": "أواصل العمل لتحقيق ما أريد مهما كانت الظروف",
+                "en": "I continue working to achieve what I want regardless of circumstances"
+              }
+            },
+            {
+              "id": 224,
+              "text": {
+                "ar": "أضع خطة واضحة وأسعى لتحقيقها بلا تراجع",
+                "en": "I set a clear plan and strive to achieve it without backing down"
+              }
+            },
+            {
+              "id": 225,
+              "text": {
+                "ar": "أتحمل الصعوبات من أجل بلوغ النجاح",
+                "en": "I endure difficulties to achieve success"
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": {
+            "ar": "القدرة على إعادة التخطيط",
+            "en": "Ability to Replan"
+          },
+          "questions": [
+            {
+              "id": 226,
+              "text": {
+                "ar": "أعدل مساري عند ظهور مشكلات غير متوقعة",
+                "en": "I adjust my course when unexpected problems arise"
+              }
+            },
+            {
+              "id": 227,
+              "text": {
+                "ar": "أستطيع وضع خطة بديلة بسرعة عند الحاجة",
+                "en": "I can quickly develop an alternative plan when needed"
+              }
+            },
+            {
+              "id": 228,
+              "text": {
+                "ar": "أتعامل مع العقبات بطريقة مرنة دون فقدان الهدف",
+                "en": "I handle obstacles flexibly without losing sight of the goal"
+              }
+            },
+            {
+              "id": 229,
+              "text": {
+                "ar": "أبحث عن حلول جديدة عند تعثر الخطة الأصلية",
+                "en": "I search for new solutions when the original plan falters"
+              }
+            },
+            {
+              "id": 230,
+              "text": {
+                "ar": "أستخدم خبرتي السابقة لتعديل خططي بفعالية",
+                "en": "I use my past experience to modify my plans effectively"
+              }
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": {
+            "ar": "المبادرة في مواجهة الأزمات",
+            "en": "Crisis Initiative"
+          },
+          "questions": [
+            {
+              "id": 231,
+              "text": {
+                "ar": "أتحرك بسرعة لحل المشكلات بدل الهروب منها",
+                "en": "I move quickly to solve problems instead of escaping from them"
+              }
+            },
+            {
+              "id": 232,
+              "text": {
+                "ar": "أتعامل مع الأزمات بثقة وهدوء",
+                "en": "I handle crises with confidence and calmness"
+              }
+            },
+            {
+              "id": 233,
+              "text": {
+                "ar": "أبحث عن حلول عملية بدلاً من الشكوى أو الانتظار",
+                "en": "I look for practical solutions instead of complaining or waiting"
+              }
+            },
+            {
+              "id": 234,
+              "text": {
+                "ar": "أستجيب فوراً عند ظهور مشكلة دون تردد",
+                "en": "I respond immediately when a problem appears without hesitation"
+              }
+            },
+            {
+              "id": 235,
+              "text": {
+                "ar": "أضع خطة واضحة لمواجهة المواقف الصعبة",
+                "en": "I set a clear plan to face difficult situations"
+              }
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": {
+            "ar": "قبول الغموض",
+            "en": "Ambiguity Tolerance"
+          },
+          "questions": [
+            {
+              "id": 236,
+              "text": {
+                "ar": "أشعر بالراحة عند التعامل مع مواقف غير واضحة النتائج",
+                "en": "I feel comfortable dealing with situations with unclear outcomes"
+              }
+            },
+            {
+              "id": 237,
+              "text": {
+                "ar": "لا أحتاج دائماً إلى معرفة كل التفاصيل قبل التصرف",
+                "en": "I don't always need to know all details before acting"
+              }
+            },
+            {
+              "id": 238,
+              "text": {
+                "ar": "أستطيع اتخاذ قرارات في ظروف غامضة بثقة",
+                "en": "I can make decisions in ambiguous circumstances with confidence"
+              }
+            },
+            {
+              "id": 239,
+              "text": {
+                "ar": "أتكيف مع المواقف الغامضة دون توتر شديد",
+                "en": "I adapt to ambiguous situations without severe stress"
+              }
+            },
+            {
+              "id": 240,
+              "text": {
+                "ar": "أرى الغموض كجزء طبيعي من الحياة والتعلم",
+                "en": "I see ambiguity as a natural part of life and learning"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": {
+        "ar": "الدافعية والإنجاز",
+        "en": "Motivation and Achievement"
+      },
+      "traits": [
+        {
+          "id": 49,
+          "name": {
+            "ar": "الطموح",
+            "en": "Ambition"
+          },
+          "questions": [
+            {
+              "id": 241,
+              "text": {
+                "ar": "أسعى دائماً للوصول إلى مكانة أعلى",
+                "en": "I always strive to reach higher positions"
+              }
+            },
+            {
+              "id": 242,
+              "text": {
+                "ar": "أضع أهدافاً كبيرة وأسعى لتحقيقها",
+                "en": "I set big goals and strive to achieve them"
+              }
+            },
+            {
+              "id": 243,
+              "text": {
+                "ar": "أعمل على تطوير نفسي باستمرار للوصول إلى النجاح",
+                "en": "I work on continuously developing myself to achieve success"
+              }
+            },
+            {
+              "id": 244,
+              "text": {
+                "ar": "لا أكتفي بما حققته، وأبحث عن الأفضل دائماً",
+                "en": "I'm not satisfied with what I've achieved, and always seek better"
+              }
+            },
+            {
+              "id": 245,
+              "text": {
+                "ar": "أضع خططاً واضحة لتحقيق طموحاتي المستقبلية",
+                "en": "I make clear plans to achieve my future ambitions"
+              }
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": {
+            "ar": "الدافعية الذاتية",
+            "en": "Self-Motivation"
+          },
+          "questions": [
+            {
+              "id": 246,
+              "text": {
+                "ar": "أعمل بجد دون الحاجة لضغط خارجي",
+                "en": "I work hard without needing external pressure"
+              }
+            },
+            {
+              "id": 247,
+              "text": {
+                "ar": "أستمتع بتحقيق أهدافي بمجهودي الشخصي",
+                "en": "I enjoy achieving my goals through my personal effort"
+              }
+            },
+            {
+              "id": 248,
+              "text": {
+                "ar": "أجد الدافع الداخلي للقيام بالمهام حتى دون إشراف",
+                "en": "I find internal motivation to do tasks even without supervision"
+              }
+            },
+            {
+              "id": 249,
+              "text": {
+                "ar": "أستمر في العمل رغم الصعوبات لأنني أريد النجاح",
+                "en": "I continue working despite difficulties because I want success"
+              }
+            },
+            {
+              "id": 250,
+              "text": {
+                "ar": "أحفز نفسي باستمرار للوصول إلى نتائج أفضل",
+                "en": "I constantly motivate myself to achieve better results"
+              }
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "name": {
+            "ar": "الاستباقية لتحقيق أهداف طويلة المدى",
+            "en": "Proactive Long-term Goal Achievement"
+          },
+          "questions": [
+            {
+              "id": 251,
+              "text": {
+                "ar": "أخطط مسبقاً لتحقيق أهداف مستقبلية",
+                "en": "I plan ahead to achieve future goals"
+              }
+            },
+            {
+              "id": 252,
+              "text": {
+                "ar": "أستعد للمستقبل باتخاذ خطوات استباقية",
+                "en": "I prepare for the future by taking proactive steps"
+              }
+            },
+            {
+              "id": 253,
+              "text": {
+                "ar": "أبحث عن الفرص قبل أن تصبح ضرورية",
+                "en": "I look for opportunities before they become necessary"
+              }
+            },
+            {
+              "id": 254,
+              "text": {
+                "ar": "أتصرف قبل ظهور المشاكل لتجنبها",
+                "en": "I act before problems appear to avoid them"
+              }
+            },
+            {
+              "id": 255,
+              "text": {
+                "ar": "أضع استراتيجيات طويلة المدى وألتزم بها",
+                "en": "I set long-term strategies and stick to them"
+              }
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "name": {
+            "ar": "السعي للكمال",
+            "en": "Pursuit of Perfection"
+          },
+          "questions": [
+            {
+              "id": 256,
+              "text": {
+                "ar": "أسعى دائماً لتحسين العمل لأقصى حد ممكن",
+                "en": "I always strive to improve work to the maximum extent possible"
+              }
+            },
+            {
+              "id": 257,
+              "text": {
+                "ar": "لا أقبل إلا بالنتائج المثالية عندما يكون ذلك ممكناً",
+                "en": "I only accept ideal results when possible"
+              }
+            },
+            {
+              "id": 258,
+              "text": {
+                "ar": "أراجع أعمالي باستمرار لتصحيح الأخطاء",
+                "en": "I constantly review my work to correct errors"
+              }
+            },
+            {
+              "id": 259,
+              "text": {
+                "ar": "أهتم بالتفاصيل الدقيقة للوصول إلى جودة عالية",
+                "en": "I care about fine details to achieve high quality"
+              }
+            },
+            {
+              "id": 260,
+              "text": {
+                "ar": "أضع معايير عالية لنفسي في كل مهمة",
+                "en": "I set high standards for myself in every task"
+              }
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "name": {
+            "ar": "القبول بالفشل كدرس",
+            "en": "Accepting Failure as a Lesson"
+          },
+          "questions": [
+            {
+              "id": 261,
+              "text": {
+                "ar": "أرى الإخفاق كفرصة للتعلم وليس كخسارة",
+                "en": "I see failure as an opportunity to learn, not as a loss"
+              }
+            },
+            {
+              "id": 262,
+              "text": {
+                "ar": "أتعلم من أخطائي لتجنبها مستقبلاً",
+                "en": "I learn from my mistakes to avoid them in the future"
+              }
+            },
+            {
+              "id": 263,
+              "text": {
+                "ar": "لا أستسلم بعد الفشل بل أبحث عن طرق للتحسين",
+                "en": "I don't give up after failure but look for ways to improve"
+              }
+            },
+            {
+              "id": 264,
+              "text": {
+                "ar": "أتعامل مع الفشل بطريقة بناءة",
+                "en": "I handle failure constructively"
+              }
+            },
+            {
+              "id": 265,
+              "text": {
+                "ar": "أستخدم الفشل لتحفيزي على النجاح في المستقبل",
+                "en": "I use failure to motivate me for future success"
+              }
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "name": {
+            "ar": "التنافسية",
+            "en": "Competitiveness"
+          },
+          "questions": [
+            {
+              "id": 266,
+              "text": {
+                "ar": "أحب التفوق على الآخرين بطريقة إيجابية",
+                "en": "I like to excel over others in a positive way"
+              }
+            },
+            {
+              "id": 267,
+              "text": {
+                "ar": "أستمتع بالمنافسة لتحسين أدائي",
+                "en": "I enjoy competition to improve my performance"
+              }
+            },
+            {
+              "id": 268,
+              "text": {
+                "ar": "أضع أهدافاً تتطلب مني التفوق على الأقران",
+                "en": "I set goals that require me to excel over peers"
+              }
+            },
+            {
+              "id": 269,
+              "text": {
+                "ar": "أعمل على تطوير نفسي لأكون أفضل من الآخرين في مجالي",
+                "en": "I work on developing myself to be better than others in my field"
+              }
+            },
+            {
+              "id": 270,
+              "text": {
+                "ar": "المنافسة تدفعني لتحقيق مستويات أعلى من الأداء",
+                "en": "Competition drives me to achieve higher performance levels"
+              }
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "name": {
+            "ar": "الرغبة في التفوق",
+            "en": "Desire for Excellence"
+          },
+          "questions": [
+            {
+              "id": 271,
+              "text": {
+                "ar": "أسعى دائماً لتجاوز الذات وتحقيق الأفضل",
+                "en": "I always strive to surpass myself and achieve the best"
+              }
+            },
+            {
+              "id": 272,
+              "text": {
+                "ar": "أضع أهدافاً شخصية لتحدي قدراتي",
+                "en": "I set personal goals to challenge my abilities"
+              }
+            },
+            {
+              "id": 273,
+              "text": {
+                "ar": "أحب تحقيق إنجازات تتجاوز توقعاتي السابقة",
+                "en": "I love achieving accomplishments that exceed my previous expectations"
+              }
+            },
+            {
+              "id": 274,
+              "text": {
+                "ar": "أبحث عن تحسين مستمر في كل ما أقوم به",
+                "en": "I seek continuous improvement in everything I do"
+              }
+            },
+            {
+              "id": 275,
+              "text": {
+                "ar": "أسعى لتكون إنجازاتي مصدر فخر لي وللآخرين",
+                "en": "I strive for my achievements to be a source of pride for me and others"
+              }
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "name": {
+            "ar": "التنظيم نحو النتائج",
+            "en": "Results-Oriented Organization"
+          },
+          "questions": [
+            {
+              "id": 276,
+              "text": {
+                "ar": "أرتب جهودي ومواردي لتحقيق أهداف محددة",
+                "en": "I organize my efforts and resources to achieve specific goals"
+              }
+            },
+            {
+              "id": 277,
+              "text": {
+                "ar": "أضع خطة عمل واضحة قبل البدء بأي مشروع",
+                "en": "I create a clear action plan before starting any project"
+              }
+            },
+            {
+              "id": 278,
+              "text": {
+                "ar": "أتابع تقدم المهام لضمان الوصول إلى النتائج المرجوة",
+                "en": "I monitor task progress to ensure desired results are achieved"
+              }
+            },
+            {
+              "id": 279,
+              "text": {
+                "ar": "أركز على النتائج بدل الانشغال بالإجراءات فقط",
+                "en": "I focus on results instead of just being concerned with procedures"
+              }
+            },
+            {
+              "id": 280,
+              "text": {
+                "ar": "أستخدم الوقت والموارد بكفاءة لتحقيق أهدافي",
+                "en": "I use time and resources efficiently to achieve my goals"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": {
+        "ar": "الرقابة الذاتية والوظائف التنفيذية",
+        "en": "Self-Control and Executive Functions"
+      },
+      "traits": [
+        {
+          "id": 57,
+          "name": {
+            "ar": "ضبط النفس",
+            "en": "Self-Control"
+          },
+          "questions": [
+            {
+              "id": 281,
+              "text": {
+                "ar": "أتحكم في أفعالي ورغباتي حتى في المواقف الصعبة",
+                "en": "I control my actions and desires even in difficult situations"
+              }
+            },
+            {
+              "id": 282,
+              "text": {
+                "ar": "أستطيع مقاومة الإغراءات قصيرة المدى",
+                "en": "I can resist short-term temptations"
+              }
+            },
+            {
+              "id": 283,
+              "text": {
+                "ar": "أتصرف بعقلانية بدل الانفعال الفوري",
+                "en": "I act rationally instead of immediate emotional reactions"
+              }
+            },
+            {
+              "id": 284,
+              "text": {
+                "ar": "أتمكن من تأجيل الرغبات لحين تحقيق هدف أكبر",
+                "en": "I can delay desires until achieving a bigger goal"
+              }
+            },
+            {
+              "id": 285,
+              "text": {
+                "ar": "أحافظ على هدوئي في المواقف المحفزة للانفعال",
+                "en": "I maintain my calm in emotionally provocative situations"
+              }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "name": {
+            "ar": "إدارة الوقت",
+            "en": "Time Management"
+          },
+          "questions": [
+            {
+              "id": 286,
+              "text": {
+                "ar": "أوزع وقتي بفعالية لإنجاز المهام المختلفة",
+                "en": "I distribute my time effectively to accomplish different tasks"
+              }
+            },
+            {
+              "id": 287,
+              "text": {
+                "ar": "أضع جدولاً واضحاً لتنظيم يومي وألتزم به",
+                "en": "I set a clear schedule to organize my day and stick to it"
+              }
+            },
+            {
+              "id": 288,
+              "text": {
+                "ar": "أخصص وقتاً كافياً لكل نشاط حسب أهميته",
+                "en": "I allocate sufficient time for each activity based on its importance"
+              }
+            },
+            {
+              "id": 289,
+              "text": {
+                "ar": "أتمكن من إنهاء المهام ضمن الوقت المحدد",
+                "en": "I can complete tasks within the specified time"
+              }
+            },
+            {
+              "id": 290,
+              "text": {
+                "ar": "أستثمر الوقت بشكل يحقق أقصى إنتاجية ممكنة",
+                "en": "I invest time to achieve maximum possible productivity"
+              }
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "name": {
+            "ar": "ضبط الانفعالات الفجائية",
+            "en": "Control of Sudden Emotions"
+          },
+          "questions": [
+            {
+              "id": 291,
+              "text": {
+                "ar": "أتمكن من التحكم في ردود الفعل السريعة وغير المدروسة",
+                "en": "I can control quick and unconsidered reactions"
+              }
+            },
+            {
+              "id": 292,
+              "text": {
+                "ar": "لا أتصرف بعاطفة قبل التفكير في النتائج",
+                "en": "I don't act emotionally before thinking about consequences"
+              }
+            },
+            {
+              "id": 293,
+              "text": {
+                "ar": "أتعامل مع المواقف المفاجئة بهدوء",
+                "en": "I handle sudden situations calmly"
+              }
+            },
+            {
+              "id": 294,
+              "text": {
+                "ar": "أحتفظ بالهدوء حتى في المواقف المستفزة",
+                "en": "I maintain calm even in provocative situations"
+              }
+            },
+            {
+              "id": 295,
+              "text": {
+                "ar": "أتجنب اتخاذ قرارات تحت تأثير الانفعال اللحظي",
+                "en": "I avoid making decisions under the influence of momentary emotions"
+              }
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "name": {
+            "ar": "القدرة على تأجيل الإشباع",
+            "en": "Delayed Gratification Ability"
+          },
+          "questions": [
+            {
+              "id": 296,
+              "text": {
+                "ar": "أستطيع الانتظار للحصول على مكافأة لاحقة",
+                "en": "I can wait to receive a later reward"
+              }
+            },
+            {
+              "id": 297,
+              "text": {
+                "ar": "أؤجل المتعة القصيرة لتحقيق هدف أكبر",
+                "en": "I postpone short-term pleasure to achieve a bigger goal"
+              }
+            },
+            {
+              "id": 298,
+              "text": {
+                "ar": "أتحمل الصعوبات الحالية من أجل نتائج مستقبلية",
+                "en": "I endure current difficulties for future results"
+              }
+            },
+            {
+              "id": 299,
+              "text": {
+                "ar": "أركز على الهدف النهائي بدل الاستسلام للرغبات الفورية",
+                "en": "I focus on the final goal instead of surrendering to immediate desires"
+              }
+            },
+            {
+              "id": 300,
+              "text": {
+                "ar": "أمارس ضبط النفس لأجل تحقيق مكاسب طويلة الأمد",
+                "en": "I practice self-control to achieve long-term gains"
+              }
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "name": {
+            "ar": "التخطيط المسبق",
+            "en": "Advance Planning"
+          },
+          "questions": [
+            {
+              "id": 301,
+              "text": {
+                "ar": "أضع أهدافاً واضحة قبل البدء بأي مهمة",
+                "en": "I set clear goals before starting any task"
+              }
+            },
+            {
+              "id": 302,
+              "text": {
+                "ar": "أضع خطة تفصيلية تشمل خطوات العمل",
+                "en": "I create a detailed plan that includes work steps"
+              }
+            },
+            {
+              "id": 303,
+              "text": {
+                "ar": "أفكر في العقبات المحتملة وأضع حلولاً مسبقة",
+                "en": "I think about potential obstacles and prepare solutions in advance"
+              }
+            },
+            {
+              "id": 304,
+              "text": {
+                "ar": "أعد الموارد المطلوبة قبل تنفيذ المشروع",
+                "en": "I prepare required resources before executing the project"
+              }
+            },
+            {
+              "id": 305,
+              "text": {
+                "ar": "ألتزم بالخطة الموضوعة لتحقيق النتائج",
+                "en": "I stick to the set plan to achieve results"
+              }
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "name": {
+            "ar": "المرونة التنفيذية",
+            "en": "Executive Flexibility"
+          },
+          "questions": [
+            {
+              "id": 306,
+              "text": {
+                "ar": "أغير أسلوب الأداء عند الحاجة دون فقدان الهدف",
+                "en": "I change performance style when needed without losing the goal"
+              }
+            },
+            {
+              "id": 307,
+              "text": {
+                "ar": "أتكيف مع الظروف الطارئة أثناء تنفيذ المهام",
+                "en": "I adapt to emergency conditions while executing tasks"
+              }
+            },
+            {
+              "id": 308,
+              "text": {
+                "ar": "أبحث عن حلول بديلة عند مواجهة عقبات غير متوقعة",
+                "en": "I look for alternative solutions when facing unexpected obstacles"
+              }
+            },
+            {
+              "id": 309,
+              "text": {
+                "ar": "أتعلم من التجربة لتطبيق طرق أكثر فعالية في المستقبل",
+                "en": "I learn from experience to apply more effective methods in the future"
+              }
+            },
+            {
+              "id": 310,
+              "text": {
+                "ar": "أتحرك بسلاسة بين الخطط المختلفة حسب متطلبات الموقف",
+                "en": "I move smoothly between different plans according to situation requirements"
+              }
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "name": {
+            "ar": "التركيز لفترات طويلة",
+            "en": "Long-term Focus"
+          },
+          "questions": [
+            {
+              "id": 311,
+              "text": {
+                "ar": "أستطيع الاستمرار في الانتباه لمهمة واحدة دون تشتيت",
+                "en": "I can maintain attention on one task without distraction"
+              }
+            },
+            {
+              "id": 312,
+              "text": {
+                "ar": "أركز على التفاصيل المهمة لفترات طويلة",
+                "en": "I focus on important details for long periods"
+              }
+            },
+            {
+              "id": 313,
+              "text": {
+                "ar": "أتحمل الإشغالات الصغيرة وأبقى مركزاً على الهدف",
+                "en": "I tolerate small distractions and stay focused on the goal"
+              }
+            },
+            {
+              "id": 314,
+              "text": {
+                "ar": "أتمكن من إتمام المهام المعقدة بتركيز كامل",
+                "en": "I can complete complex tasks with full concentration"
+              }
+            },
+            {
+              "id": 315,
+              "text": {
+                "ar": "أحتفظ بانتباهي حتى عند استمرار العمل لساعات طويلة",
+                "en": "I maintain my attention even when working continues for long hours"
+              }
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": {
+            "ar": "القدرة على الانتقال بين مهام",
+            "en": "Task-Switching Ability"
+          },
+          "questions": [
+            {
+              "id": 316,
+              "text": {
+                "ar": "أستطيع التبديل بسلاسة من مهمة إلى أخرى دون فقدان التركيز",
+                "en": "I can switch smoothly from one task to another without losing focus"
+              }
+            },
+            {
+              "id": 317,
+              "text": {
+                "ar": "أتعامل مع تعدد المهام بكفاءة",
+                "en": "I handle multitasking efficiently"
+              }
+            },
+            {
+              "id": 318,
+              "text": {
+                "ar": "أرتب أولوياتي عند وجود أكثر من مهمة متزامنة",
+                "en": "I prioritize when there are multiple simultaneous tasks"
+              }
+            },
+            {
+              "id": 319,
+              "text": {
+                "ar": "أتكيف بسرعة عند الحاجة للانتقال بين المشاريع المختلفة",
+                "en": "I adapt quickly when needing to switch between different projects"
+              }
+            },
+            {
+              "id": 320,
+              "text": {
+                "ar": "أحافظ على جودة العمل أثناء التنقل بين المهام",
+                "en": "I maintain work quality while switching between tasks"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": {
+        "ar": "أنماط التفاعل",
+        "en": "Interaction Patterns"
+      },
+      "traits": [
+        {
+          "id": 65,
+          "name": {
+            "ar": "الأسلوب العدواني/المدفوع",
+            "en": "Aggressive/Driven Style"
+          },
+          "questions": [
+            {
+              "id": 321,
+              "text": {
+                "ar": "أميل للاندفاعية في المواقف الحاسمة",
+                "en": "I tend to be impulsive in decisive situations"
+              }
+            },
+            {
+              "id": 322,
+              "text": {
+                "ar": "أواجه الآخرين مباشرة عند حدوث خلاف",
+                "en": "I confront others directly when disagreements occur"
+              }
+            },
+            {
+              "id": 323,
+              "text": {
+                "ar": "أتصرف بسرعة دون التفكير طويلاً عند الحاجة",
+                "en": "I act quickly without thinking long when needed"
+              }
+            },
+            {
+              "id": 324,
+              "text": {
+                "ar": "أستخدم قوة شخصيتي أحياناً لفرض رأيي",
+                "en": "I sometimes use my personality strength to impose my opinion"
+              }
+            },
+            {
+              "id": 325,
+              "text": {
+                "ar": "أستجيب بسرعة للمواقف التنافسية أو الصدامية",
+                "en": "I respond quickly to competitive or confrontational situations"
+              }
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "name": {
+            "ar": "الأسلوب الدبلوماسي",
+            "en": "Diplomatic Style"
+          },
+          "questions": [
+            {
+              "id": 326,
+              "text": {
+                "ar": "أحرص على التوازن وتجنب الصدام في العلاقات",
+                "en": "I ensure balance and avoid confrontation in relationships"
+              }
+            },
+            {
+              "id": 327,
+              "text": {
+                "ar": "أبحث عن حلول وسط لإرضاء جميع الأطراف",
+                "en": "I look for middle-ground solutions to satisfy all parties"
+              }
+            },
+            {
+              "id": 328,
+              "text": {
+                "ar": "أتعامل مع المواقف الحساسة بحكمة ومرونة",
+                "en": "I handle sensitive situations with wisdom and flexibility"
+              }
+            },
+            {
+              "id": 329,
+              "text": {
+                "ar": "أستمع للطرفين قبل اتخاذ القرار",
+                "en": "I listen to both sides before making a decision"
+              }
+            },
+            {
+              "id": 330,
+              "text": {
+                "ar": "أتحاشى التصرفات التي قد تؤدي إلى نزاع غير ضروري",
+                "en": "I avoid actions that might lead to unnecessary conflict"
+              }
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": {
+            "ar": "الميل للسيطرة",
+            "en": "Tendency to Dominate"
+          },
+          "questions": [
+            {
+              "id": 331,
+              "text": {
+                "ar": "أحب أن يكون لي دور مؤثر في اتخاذ القرارات",
+                "en": "I like to have an influential role in decision-making"
+              }
+            },
+            {
+              "id": 332,
+              "text": {
+                "ar": "أحرص على توجيه الآخرين عندما أرى ضرورة لذلك",
+                "en": "I make sure to guide others when I see it necessary"
+              }
+            },
+            {
+              "id": 333,
+              "text": {
+                "ar": "أسعى لتولي زمام الأمور في المشاريع أو المواقف",
+                "en": "I seek to take charge in projects or situations"
+              }
+            },
+            {
+              "id": 334,
+              "text": {
+                "ar": "أحب أن يكون رأيي مسموعاً ومطبقاً",
+                "en": "I like my opinion to be heard and implemented"
+              }
+            },
+            {
+              "id": 335,
+              "text": {
+                "ar": "أحياناً أجد صعوبة في التفويض للآخرين",
+                "en": "Sometimes I find it difficult to delegate to others"
+              }
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "name": {
+            "ar": "القدرة على التفاوض",
+            "en": "Negotiation Ability"
+          },
+          "questions": [
+            {
+              "id": 336,
+              "text": {
+                "ar": "أبحث عن حلول ترضي جميع الأطراف عند الخلاف",
+                "en": "I look for solutions that satisfy all parties during disagreements"
+              }
+            },
+            {
+              "id": 337,
+              "text": {
+                "ar": "أتمكن من الوصول إلى اتفاقيات مرضية للطرفين",
+                "en": "I can reach agreements satisfactory to both parties"
+              }
+            },
+            {
+              "id": 338,
+              "text": {
+                "ar": "أستخدم الحوار والإقناع لحل النزاعات",
+                "en": "I use dialogue and persuasion to resolve conflicts"
+              }
+            },
+            {
+              "id": 339,
+              "text": {
+                "ar": "أوازن بين مصالح الأطراف المختلفة قبل اتخاذ القرار",
+                "en": "I balance the interests of different parties before making decisions"
+              }
+            },
+            {
+              "id": 340,
+              "text": {
+                "ar": "أبحث عن أفضل صيغة لتحقيق توافق بين الجميع",
+                "en": "I look for the best formula to achieve consensus among everyone"
+              }
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "name": {
+            "ar": "الحس الفكاهي الاجتماعي",
+            "en": "Social Humor Sense"
+          },
+          "questions": [
+            {
+              "id": 341,
+              "text": {
+                "ar": "أستخدم الدعابة لكسر الحواجز في المواقف الاجتماعية",
+                "en": "I use humor to break barriers in social situations"
+              }
+            },
+            {
+              "id": 342,
+              "text": {
+                "ar": "أجد أن المزاح يخفف التوتر ويقرب الناس مني",
+                "en": "I find that joking relieves tension and brings people closer to me"
+              }
+            },
+            {
+              "id": 343,
+              "text": {
+                "ar": "أتمكن من جعل الآخرين يضحكون في المواقف المحرجة",
+                "en": "I can make others laugh in embarrassing situations"
+              }
+            },
+            {
+              "id": 344,
+              "text": {
+                "ar": "أحب استخدام الفكاهة بطريقة ذكية للتواصل",
+                "en": "I like using humor intelligently for communication"
+              }
+            },
+            {
+              "id": 345,
+              "text": {
+                "ar": "أستمتع بإضافة جو من المرح في التعاملات اليومية",
+                "en": "I enjoy adding a fun atmosphere to daily interactions"
+              }
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "name": {
+            "ar": "الحساسية للانتقاد",
+            "en": "Sensitivity to Criticism"
+          },
+          "questions": [
+            {
+              "id": 346,
+              "text": {
+                "ar": "أتأثر بالملاحظات السلبية بسهولة",
+                "en": "I'm easily affected by negative comments"
+              }
+            },
+            {
+              "id": 347,
+              "text": {
+                "ar": "أعيد التفكير في مواقفي عند تلقي النقد",
+                "en": "I reconsider my positions when receiving criticism"
+              }
+            },
+            {
+              "id": 348,
+              "text": {
+                "ar": "أشعر بالانزعاج إذا لم يُفهم سلوكي أو قراراتي",
+                "en": "I feel annoyed if my behavior or decisions are not understood"
+              }
+            },
+            {
+              "id": 349,
+              "text": {
+                "ar": "أحياناً أبحث عن تبريرات للانتقادات الموجهة لي",
+                "en": "Sometimes I look for justifications for criticisms directed at me"
+              }
+            },
+            {
+              "id": 350,
+              "text": {
+                "ar": "أجد صعوبة في تجاهل النقد القاسي أو اللاذع",
+                "en": "I find it difficult to ignore harsh or biting criticism"
+              }
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "name": {
+            "ar": "الميل للتودد أو التدخل",
+            "en": "Tendency to Please or Interfere"
+          },
+          "questions": [
+            {
+              "id": 351,
+              "text": {
+                "ar": "أحب الانخراط في شؤون الآخرين أحياناً أكثر من اللازم",
+                "en": "I sometimes like to get involved in others' affairs more than necessary"
+              }
+            },
+            {
+              "id": 352,
+              "text": {
+                "ar": "أبحث عن فرص للمساعدة أو التدخل في مشاكل الآخرين",
+                "en": "I look for opportunities to help or intervene in others' problems"
+              }
+            },
+            {
+              "id": 353,
+              "text": {
+                "ar": "أحرص على بناء علاقات قوية من خلال التودد المستمر",
+                "en": "I strive to build strong relationships through continuous pleasing"
+              }
+            },
+            {
+              "id": 354,
+              "text": {
+                "ar": "أشارك في شؤون الآخرين بناءً على رغبة في القرب الاجتماعي",
+                "en": "I participate in others' affairs based on a desire for social closeness"
+              }
+            },
+            {
+              "id": 355,
+              "text": {
+                "ar": "أجد صعوبة في الحفاظ على مسافة عند الحاجة",
+                "en": "I find it difficult to maintain distance when needed"
+              }
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "name": {
+            "ar": "الثقة بالنفس الظاهرة",
+            "en": "Apparent Self-Confidence"
+          },
+          "questions": [
+            {
+              "id": 356,
+              "text": {
+                "ar": "أظهر نفسي بثقة أمام الآخرين حتى في المواقف الصعبة",
+                "en": "I present myself confidently to others even in difficult situations"
+              }
+            },
+            {
+              "id": 357,
+              "text": {
+                "ar": "أتصرف بحزم عند تقديم الرأي أو اتخاذ القرار",
+                "en": "I act firmly when presenting opinions or making decisions"
+              }
+            },
+            {
+              "id": 358,
+              "text": {
+                "ar": "أستطيع التعبير عن أفكاري بوضوح أمام جمهور",
+                "en": "I can express my ideas clearly before an audience"
+              }
+            },
+            {
+              "id": 359,
+              "text": {
+                "ar": "أتمكن من فرض شخصيتي دون التعدي على الآخرين",
+                "en": "I can assert my personality without infringing on others"
+              }
+            },
+            {
+              "id": 360,
+              "text": {
+                "ar": "أظهر ثقة مستمرة حتى عند مواجهة تحديات جديدة",
+                "en": "I show continuous confidence even when facing new challenges"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
