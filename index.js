@@ -1,100 +1,117 @@
 require('dotenv').config();
-const { Client, GatewayIntentBits } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
-
+const simpleGit = require('simple-git');
+const { DiscordBot } = require('./discord.js'); // ملف الأوامر
 const memoryDir = './memory';
-const databaseDir = './database';
-
-// التأكد من وجود المجلدات
 if (!fs.existsSync(memoryDir)) fs.mkdirSync(memoryDir);
-if (!fs.existsSync(databaseDir)) fs.mkdirSync(databaseDir);
-
-// تحميل ملفات database إلى memory عند بدء البوت
-function loadDatabaseToMemory() {
-  const files = fs.readdirSync(databaseDir);
-  files.forEach(file => {
-    const src = path.join(databaseDir, file);
-    const dest = path.join(memoryDir, file);
-    fs.copyFileSync(src, dest);
-  });
-  console.log('✅ Database loaded into memory.');
-}
-
-loadDatabaseToMemory();
-
-// دالة نسخ memory إلى database
-function backupMemoryFiles() {
-  const files = fs.readdirSync(memoryDir);
-  files.forEach(file => {
-    const src = path.join(memoryDir, file);
-    const dest = path.join(databaseDir, file);
-    fs.copyFileSync(src, dest);
-  });
-  console.log('✅ Memory files copied to database.');
-}
-
-// دفع الملفات إلى GitHub
-function pushToGitHub() {
-  exec('git add database && git commit -m "Auto backup" && git push', (error, stdout, stderr) => {
-    if (error) {
-      console.error(`❌ Git push failed: ${error.message}`);
-      return;
-    }
-    if (stderr) console.error(`❌ Git push stderr: ${stderr}`);
-    else console.log('✅ Database pushed to GitHub.');
-  });
-}
-
-// ضبط نسخة احتياطية ودفع تلقائي كل 10 دقائق
-setInterval(() => {
-  backupMemoryFiles();
-  pushToGitHub();
-}, 10 * 60 * 1000); // 10 دقائق
 
 const token = process.env.DISCORD_TOKEN;
-const gemini = process.env.GEMINI_KEY;
+const geminiKey = process.env.GEMINI_KEY;
+const githubToken = process.env.GITHUB_TOKEN; // توكن شخصي مع صلاحية repo
+const githubUser = process.env.GITHUB_USER;   // اسم المستخدم في GitHub
+const githubRepo = process.env.GITHUB_REPO;   // اسم المستودع
 
-if (!token) {
-  console.error('❌ DISCORD_TOKEN is required');
+if (!token || !geminiKey || !githubToken || !githubUser || !githubRepo) {
+  console.error('❌ Missing environment variables');
   process.exit(1);
 }
 
-if (!gemini) {
-  console.error('❌ GEMINI_KEY is required');
-  process.exit(1);
+class InMemoryStorage {
+  async getUserByDiscordId(discordId) {
+    const file = path.join(memoryDir, `${discordId}.json`);
+    if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file));
+    return null;
+  }
+  async createUser({ discordId, username, language }) {
+    const user = { discordId, username, language };
+    fs.writeFileSync(path.join(memoryDir, `${discordId}.json`), JSON.stringify(user, null, 2));
+    return user;
+  }
+  async updateUserLanguage(discordId, language) {
+    const file = path.join(memoryDir, `${discordId}.json`);
+    if (fs.existsSync(file)) {
+      const user = JSON.parse(fs.readFileSync(file));
+      user.language = language;
+      fs.writeFileSync(file, JSON.stringify(user, null, 2));
+    }
+  }
+  async getActiveSession(userId) {
+    const file = path.join(memoryDir, `${userId}_session.json`);
+    if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file));
+    return null;
+  }
+  async createSession({ userId, channelId, currentQuestion, answers, isCompleted }) {
+    const session = { userId, channelId, currentQuestion, answers, isCompleted };
+    fs.writeFileSync(path.join(memoryDir, `${userId}_session.json`), JSON.stringify(session, null, 2));
+    return session;
+  }
+  async updateSession(userId, updateData) {
+    const file = path.join(memoryDir, `${userId}_session.json`);
+    if (fs.existsSync(file)) {
+      const session = JSON.parse(fs.readFileSync(file));
+      Object.assign(session, updateData);
+      fs.writeFileSync(file, JSON.stringify(session, null, 2));
+    }
+  }
+  async saveAnswer(userId, questionId, answer) {
+    const file = path.join(memoryDir, `${userId}_session.json`);
+    if (fs.existsSync(file)) {
+      const session = JSON.parse(fs.readFileSync(file));
+      session.answers[questionId] = answer;
+      fs.writeFileSync(file, JSON.stringify(session, null, 2));
+    }
+  }
+  async completeSession(userId) {
+    const file = path.join(memoryDir, `${userId}_session.json`);
+    if (fs.existsSync(file)) {
+      const session = JSON.parse(fs.readFileSync(file));
+      session.isCompleted = true;
+      fs.writeFileSync(file, JSON.stringify(session, null, 2));
+    }
+  }
 }
 
-const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
-});
-
-// حفظ رسائل المستخدمين في memory
-client.on('messageCreate', async msg => {
-  if (msg.author.bot) return;
-
-  const userFile = path.join(memoryDir, `${msg.author.id}.json`);
-  let userMemory = [];
-  if (fs.existsSync(userFile)) {
-    userMemory = JSON.parse(fs.readFileSync(userFile));
+// رفع الملفات إلى GitHub
+async function pushToGitHub() {
+  try {
+    const git = simpleGit();
+    await git.addConfig('user.name', githubUser);
+    await git.addConfig('user.email', `${githubUser}@users.noreply.github.com`);
+    await git.add('./memory/*');
+    await git.commit(`Auto-save memory at ${new Date().toISOString()}`);
+    await git.push(`https://${githubToken}@github.com/${githubUser}/${githubRepo}.git`, 'main');
+    console.log('✅ Memory pushed to GitHub');
+  } catch (err) {
+    console.error('❌ Failed to push memory to GitHub:', err.message);
   }
+}
 
-  userMemory.push(msg.content);
-  fs.writeFileSync(userFile, JSON.stringify(userMemory, null, 2));
+// تشغيل البوت
+async function main() {
+  const storage = new InMemoryStorage();
+  const bot = new DiscordBot(storage);
 
-  if (msg.content === '!اخر') {
-    const last = userMemory.slice(-2, -1)[0];
-    msg.reply(last ? `آخر شيء قلته كان: "${last}"` : 'لا أتذكر أي شيء بعد.');
-  }
-});
+  try {
+    console.log('🚀 Starting 72TP Discord Bot...');
+    await bot.login(token);
+    console.log('✅ Bot is online and ready!');
 
-client.login(token)
-  .then(() => console.log('✅ 72TP Discord Bot is online and ready!'))
-  .catch(err => {
-    console.error('❌ Failed to login:', err);
+    // رفع تلقائي كل 10 دقائق
+    setInterval(pushToGitHub, 10 * 60 * 1000);
+  } catch (err) {
+    console.error('❌ Failed to start bot:', err);
     process.exit(1);
-  });
+  }
+}
 
-process.on('SIGINT', () => { console.log('👋 Shutting down...'); process.exit(0); });
-process.on('SIGTERM', () => { console.log('👋 Shutting down...'); process.exit(0); });
+process.on('SIGINT', () => {
+  console.log('👋 Shutting down bot...');
+  process.exit(0);
+});
+process.on('SIGTERM', () => {
+  console.log('👋 Shutting down bot...');
+  process.exit(0);
+});
+
+main();
